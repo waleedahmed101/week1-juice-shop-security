@@ -1,0 +1,1001 @@
+ID,Req. Timestamp,Resp. Timestamp,Method,URL,Code,Reason,RTT,Size Resp. Header,Size Resp. Body
+4564,Tue Jul 15 07:29:39 EDT 2025,Tue Jul 15 07:29:39 EDT 2025,GET,http://localhost:3000/rest/products/search?q=any%0ASet-cookie%3A+Tamper%3Dd55a64cb-fb8b-4641-b42d-300a157c65fb,200,OK,255,384,30
+4565,Tue Jul 15 07:29:39 EDT 2025,Tue Jul 15 07:29:39 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=any%0D%0ASet-cookie%3A+Tamper%3Dc60d3602-38f8-4d51-9af7-bf78488bad02%0D%0A,200,OK,4,230,96
+4566,Tue Jul 15 07:29:39 EDT 2025,Tue Jul 15 07:29:39 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=any%3F%0D%0ASet-cookie%3A+Tamper%3Dc60d3602-38f8-4d51-9af7-bf78488bad02%0D%0A,200,OK,18,230,96
+4567,Tue Jul 15 07:29:39 EDT 2025,Tue Jul 15 07:29:39 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=any%3F%0D%0ASet-cookie%3A+Tamper%3D009e0abf-922b-4c10-95a4-ce1b61b96792%0D%0A,200,OK,560,384,30
+4568,Tue Jul 15 07:29:39 EDT 2025,Tue Jul 15 07:29:39 EDT 2025,GET,http://localhost:3000/rest/products/search?q=any%3F%0ASet-cookie%3A+Tamper%3Dd55a64cb-fb8b-4641-b42d-300a157c65fb,200,OK,83,384,30
+4569,Tue Jul 15 07:29:39 EDT 2025,Tue Jul 15 07:29:39 EDT 2025,GET,http://localhost:3000/rest/products/search?q=any%0D%0ASet-cookie%3A+Tamper%3Dd55a64cb-fb8b-4641-b42d-300a157c65fb%0D%0A,200,OK,49,384,30
+4570,Tue Jul 15 07:29:39 EDT 2025,Tue Jul 15 07:29:39 EDT 2025,GET,http://localhost:3000/rest/products/search?q=any%3F%0D%0ASet-cookie%3A+Tamper%3Dd55a64cb-fb8b-4641-b42d-300a157c65fb%0D%0A,200,OK,56,384,30
+4571,Tue Jul 15 07:29:39 EDT 2025,Tue Jul 15 07:29:39 EDT 2025,GET,http://localhost:3000,200,OK,29,469,80117
+4572,Tue Jul 15 07:29:39 EDT 2025,Tue Jul 15 07:29:39 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,19,230,34
+4573,Tue Jul 15 07:29:39 EDT 2025,Tue Jul 15 07:29:39 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,6,230,34
+4574,Tue Jul 15 07:29:39 EDT 2025,Tue Jul 15 07:29:39 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,4,230,34
+4575,Tue Jul 15 07:29:39 EDT 2025,Tue Jul 15 07:29:40 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,8,230,34
+4576,Tue Jul 15 07:29:39 EDT 2025,Tue Jul 15 07:29:40 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,101,386,799
+4577,Tue Jul 15 07:29:40 EDT 2025,Tue Jul 15 07:29:40 EDT 2025,POST,http://localhost:3000/rest/user/login,401,Unauthorized,40,387,26
+4578,Tue Jul 15 07:29:40 EDT 2025,Tue Jul 15 07:29:40 EDT 2025,POST,http://localhost:3000/rest/user/login,401,Unauthorized,39,387,26
+4579,Tue Jul 15 07:29:40 EDT 2025,Tue Jul 15 07:29:40 EDT 2025,POST,http://localhost:3000/rest/user/login,401,Unauthorized,49,387,26
+4580,Tue Jul 15 07:29:40 EDT 2025,Tue Jul 15 07:29:40 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,28,363,2043
+4581,Tue Jul 15 07:29:40 EDT 2025,Tue Jul 15 07:29:40 EDT 2025,POST,http://localhost:3000/rest/user/login,401,Unauthorized,112,387,26
+4582,Tue Jul 15 07:29:40 EDT 2025,Tue Jul 15 07:29:40 EDT 2025,POST,http://localhost:3000/rest/user/login,500,Internal Server Error,187,363,1189
+4583,Tue Jul 15 07:29:40 EDT 2025,Tue Jul 15 07:29:40 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,405,390,85835
+4584,Tue Jul 15 07:29:40 EDT 2025,Tue Jul 15 07:29:40 EDT 2025,POST,http://localhost:3000/rest/user/login,401,Unauthorized,197,387,26
+4585,Tue Jul 15 07:29:40 EDT 2025,Tue Jul 15 07:29:40 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,229,386,799
+4586,Tue Jul 15 07:29:41 EDT 2025,Tue Jul 15 07:29:41 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,64,386,799
+4587,Tue Jul 15 07:29:40 EDT 2025,Tue Jul 15 07:29:41 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,345,388,6258
+4588,Tue Jul 15 07:29:40 EDT 2025,Tue Jul 15 07:29:41 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=Score%20Board,200,OK,344,386,696
+4589,Tue Jul 15 07:29:41 EDT 2025,Tue Jul 15 07:29:41 EDT 2025,GET,http://localhost:3000/assets,301,Moved Permanently,7,416,156
+4590,Tue Jul 15 07:29:41 EDT 2025,Tue Jul 15 07:29:41 EDT 2025,GET,http://localhost:3000/assets/i18n,301,Moved Permanently,30,421,161
+4591,Tue Jul 15 07:29:41 EDT 2025,Tue Jul 15 07:29:41 EDT 2025,GET,http://localhost:3000/assets/public,301,Moved Permanently,4,423,163
+4592,Tue Jul 15 07:29:41 EDT 2025,Tue Jul 15 07:29:41 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,116,386,799
+4593,Tue Jul 15 07:29:41 EDT 2025,Tue Jul 15 07:29:41 EDT 2025,GET,http://localhost:3000/assets/public/images,301,Moved Permanently,32,430,170
+4594,Tue Jul 15 07:29:41 EDT 2025,Tue Jul 15 07:29:41 EDT 2025,GET,http://localhost:3000/assets/public/images/products,301,Moved Permanently,3,439,179
+4595,Tue Jul 15 07:29:41 EDT 2025,Tue Jul 15 07:29:41 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,173,386,799
+4596,Tue Jul 15 07:29:41 EDT 2025,Tue Jul 15 07:29:41 EDT 2025,GET,http://localhost:3000/api/Challenges/?=,200,OK,296,390,85835
+4597,Tue Jul 15 07:29:41 EDT 2025,Tue Jul 15 07:29:41 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,68,386,799
+4598,Tue Jul 15 07:29:41 EDT 2025,Tue Jul 15 07:29:41 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,136,386,799
+4599,Tue Jul 15 07:29:41 EDT 2025,Tue Jul 15 07:29:41 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,65,386,799
+4600,Tue Jul 15 07:29:41 EDT 2025,Tue Jul 15 07:29:41 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=,200,OK,200,384,30
+4601,Tue Jul 15 07:29:41 EDT 2025,Tue Jul 15 07:29:41 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=%40,200,OK,100,384,30
+4602,Tue Jul 15 07:29:41 EDT 2025,Tue Jul 15 07:29:41 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=%2B,200,OK,54,384,30
+4603,Tue Jul 15 07:29:41 EDT 2025,Tue Jul 15 07:29:41 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=%00,500,Internal Server Error,44,403,81
+4604,Tue Jul 15 07:29:41 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,24,363,2045
+4605,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,19,363,2057
+4606,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,25,363,2083
+4607,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,14,363,2063
+4608,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,32,363,2055
+4609,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,50,469,80117
+4610,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,15,230,34
+4611,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,20,230,34
+4612,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,10,230,34
+4613,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,3,230,34
+4614,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/rest/products/search?q=,200,OK,291,389,13659
+4615,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr8wT,200,OK,72,230,96
+4616,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,87,129,0
+4617,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?=&transport=polling&t=PWDr8wT,200,OK,10,230,96
+4619,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,48,129,0
+4618,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=&transport=polling&t=PWDr8wT,200,OK,39,230,96
+4621,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%40&transport=polling&t=PWDr8wT,200,OK,6,230,96
+4620,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,7,129,0
+4622,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%2B&transport=polling&t=PWDr8wT,200,OK,11,230,96
+4623,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%00&transport=polling&t=PWDr8wT,200,OK,22,230,96
+4624,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%7C&transport=polling&t=PWDr8wT,200,OK,2,230,96
+4625,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr8wT,200,OK,1,230,96
+4626,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&=&t=PWDr8wT,400,Bad Request,1,230,40
+4627,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=&t=PWDr8wT,400,Bad Request,9,230,40
+4628,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=%40&t=PWDr8wT,400,Bad Request,2,230,40
+4629,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=%2B&t=PWDr8wT,400,Bad Request,3,230,40
+4630,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=%00&t=PWDr8wT,400,Bad Request,2,230,40
+4631,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=%7C&t=PWDr8wT,400,Bad Request,8,230,40
+4632,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr8wT,200,OK,2,230,96
+4633,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&=,200,OK,1,230,96
+4634,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=,200,OK,1,230,96
+4635,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=%40,200,OK,2,230,96
+4636,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=%2B,200,OK,2,230,96
+4637,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=%00,200,OK,5,230,96
+4638,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=%7C,200,OK,10,230,96
+4639,Tue Jul 15 07:29:41 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=%7C,200,OK,955,384,30
+4640,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/rest/products/search?=,200,OK,457,389,13659
+4641,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:42 EDT 2025,GET,http://localhost:3000/rest/products/search?q=,200,OK,81,389,13659
+4642,Tue Jul 15 07:29:42 EDT 2025,Tue Jul 15 07:29:43 EDT 2025,GET,http://localhost:3000/rest/products/search?q=%40,200,OK,93,386,691
+4643,Tue Jul 15 07:29:43 EDT 2025,Tue Jul 15 07:29:43 EDT 2025,GET,http://localhost:3000/rest/products/search?q=%2B,200,OK,78,384,30
+4644,Tue Jul 15 07:29:43 EDT 2025,Tue Jul 15 07:29:43 EDT 2025,GET,http://localhost:3000/rest/products/search?q=%00,500,Internal Server Error,90,362,321
+4645,Tue Jul 15 07:29:43 EDT 2025,Tue Jul 15 07:29:43 EDT 2025,GET,http://localhost:3000/rest/products/search?q=%7C,200,OK,121,384,30
+4646,Tue Jul 15 07:29:43 EDT 2025,Tue Jul 15 07:29:43 EDT 2025,GET,http://localhost:3000/rest/user/trace.axd,500,Internal Server Error,23,363,2075
+4648,Tue Jul 15 07:29:43 EDT 2025,Tue Jul 15 07:29:43 EDT 2025,GET,http://localhost:3000/elmah.axd,200,OK,141,469,80117
+4647,Tue Jul 15 07:29:43 EDT 2025,Tue Jul 15 07:29:43 EDT 2025,GET,http://localhost:3000,200,OK,126,469,80117
+4649,Tue Jul 15 07:29:43 EDT 2025,Tue Jul 15 07:29:43 EDT 2025,GET,http://localhost:3000/socket.io/trace.axd,400,Bad Request,102,230,40
+4650,Tue Jul 15 07:29:43 EDT 2025,Tue Jul 15 07:29:43 EDT 2025,GET,http://localhost:3000/trace.axd,200,OK,21,469,80117
+4651,Tue Jul 15 07:29:43 EDT 2025,Tue Jul 15 07:29:43 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,9,363,2043
+4652,Tue Jul 15 07:29:43 EDT 2025,Tue Jul 15 07:29:43 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,103,390,85835
+4653,Tue Jul 15 07:29:43 EDT 2025,Tue Jul 15 07:29:43 EDT 2025,GET,http://localhost:3000/api/trace.axd,500,Internal Server Error,6,363,2063
+4654,Tue Jul 15 07:29:43 EDT 2025,Tue Jul 15 07:29:43 EDT 2025,GET,http://localhost:3000/api/Challenges/trace.axd,401,Unauthorized,44,353,234
+4655,Tue Jul 15 07:29:43 EDT 2025,Tue Jul 15 07:29:44 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,123,388,6258
+4656,Tue Jul 15 07:29:44 EDT 2025,Tue Jul 15 07:29:44 EDT 2025,GET,http://localhost:3000/api/Quantitys/trace.axd,403,Forbidden,12,391,39
+4657,Tue Jul 15 07:29:44 EDT 2025,Tue Jul 15 07:29:44 EDT 2025,GET,http://localhost:3000/assets,301,Moved Permanently,17,416,156
+4658,Tue Jul 15 07:29:44 EDT 2025,Tue Jul 15 07:29:44 EDT 2025,GET,http://localhost:3000/assets/i18n,301,Moved Permanently,4,421,161
+4659,Tue Jul 15 07:29:44 EDT 2025,Tue Jul 15 07:29:44 EDT 2025,GET,http://localhost:3000/assets/public,301,Moved Permanently,33,423,163
+4660,Tue Jul 15 07:29:44 EDT 2025,Tue Jul 15 07:29:44 EDT 2025,GET,http://localhost:3000/assets/trace.axd,200,OK,58,469,80117
+4661,Tue Jul 15 07:29:44 EDT 2025,Tue Jul 15 07:29:44 EDT 2025,GET,http://localhost:3000/assets/i18n/trace.axd,200,OK,59,469,80117
+4662,Tue Jul 15 07:29:44 EDT 2025,Tue Jul 15 07:29:44 EDT 2025,GET,http://localhost:3000/assets/public/images,301,Moved Permanently,27,430,170
+4663,Tue Jul 15 07:29:44 EDT 2025,Tue Jul 15 07:29:44 EDT 2025,GET,http://localhost:3000/assets/public/images/products,301,Moved Permanently,29,439,179
+4664,Tue Jul 15 07:29:44 EDT 2025,Tue Jul 15 07:29:44 EDT 2025,GET,http://localhost:3000/assets/public/trace.axd,200,OK,130,469,80117
+4665,Tue Jul 15 07:29:44 EDT 2025,Tue Jul 15 07:29:44 EDT 2025,GET,http://localhost:3000/assets/public/images/trace.axd,200,OK,106,469,80117
+4666,Tue Jul 15 07:29:44 EDT 2025,Tue Jul 15 07:29:44 EDT 2025,GET,http://localhost:3000/assets/public/images/products/trace.axd,200,OK,45,469,80117
+4667,Tue Jul 15 07:29:44 EDT 2025,Tue Jul 15 07:29:44 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,7,363,2045
+4668,Tue Jul 15 07:29:44 EDT 2025,Tue Jul 15 07:29:44 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,33,363,2057
+4669,Tue Jul 15 07:29:44 EDT 2025,Tue Jul 15 07:29:44 EDT 2025,GET,http://localhost:3000/rest/trace.axd,500,Internal Server Error,81,363,2065
+4670,Tue Jul 15 07:29:44 EDT 2025,Tue Jul 15 07:29:44 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,151,363,2083
+4671,Tue Jul 15 07:29:44 EDT 2025,Tue Jul 15 07:29:44 EDT 2025,GET,http://localhost:3000/rest/admin/trace.axd,500,Internal Server Error,187,363,2077
+4672,Tue Jul 15 07:29:44 EDT 2025,Tue Jul 15 07:29:45 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,70,363,2063
+4673,Tue Jul 15 07:29:45 EDT 2025,Tue Jul 15 07:29:45 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,25,363,2055
+4674,Tue Jul 15 07:29:45 EDT 2025,Tue Jul 15 07:29:45 EDT 2025,GET,http://localhost:3000/rest/products/trace.axd,500,Internal Server Error,48,363,2083
+4675,Tue Jul 15 07:29:45 EDT 2025,Tue Jul 15 07:29:45 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,28,469,80117
+4676,Tue Jul 15 07:29:44 EDT 2025,Tue Jul 15 07:29:45 EDT 2025,GET,http://localhost:3000/rest/basket/trace.axd,200,OK,327,384,32
+4677,Tue Jul 15 07:29:45 EDT 2025,Tue Jul 15 07:29:45 EDT 2025,GET,http://localhost:3000/rest/user/.htaccess,500,Internal Server Error,17,363,2075
+4678,Tue Jul 15 07:29:45 EDT 2025,Tue Jul 15 07:29:45 EDT 2025,GET,http://localhost:3000/socket.io/.htaccess,400,Bad Request,84,230,40
+4679,Tue Jul 15 07:29:45 EDT 2025,Tue Jul 15 07:29:45 EDT 2025,GET,http://localhost:3000,200,OK,94,469,80117
+4680,Tue Jul 15 07:29:45 EDT 2025,Tue Jul 15 07:29:45 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,29,363,2043
+4681,Tue Jul 15 07:29:45 EDT 2025,Tue Jul 15 07:29:45 EDT 2025,GET,http://localhost:3000/.htaccess,200,OK,99,469,80117
+4682,Tue Jul 15 07:29:45 EDT 2025,Tue Jul 15 07:29:45 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,418,390,85835
+4683,Tue Jul 15 07:29:45 EDT 2025,Tue Jul 15 07:29:45 EDT 2025,GET,http://localhost:3000/api/.htaccess,500,Internal Server Error,11,363,2063
+4684,Tue Jul 15 07:29:45 EDT 2025,Tue Jul 15 07:29:46 EDT 2025,GET,http://localhost:3000/api/Challenges/.htaccess,401,Unauthorized,115,353,234
+4685,Tue Jul 15 07:29:45 EDT 2025,Tue Jul 15 07:29:46 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,279,388,6258
+4686,Tue Jul 15 07:29:46 EDT 2025,Tue Jul 15 07:29:46 EDT 2025,GET,http://localhost:3000/assets,301,Moved Permanently,13,416,156
+4688,Tue Jul 15 07:29:46 EDT 2025,Tue Jul 15 07:29:46 EDT 2025,GET,http://localhost:3000/assets/i18n,301,Moved Permanently,18,421,161
+4687,Tue Jul 15 07:29:46 EDT 2025,Tue Jul 15 07:29:46 EDT 2025,GET,http://localhost:3000/api/Quantitys/.htaccess,403,Forbidden,31,391,39
+4689,Tue Jul 15 07:29:46 EDT 2025,Tue Jul 15 07:29:46 EDT 2025,GET,http://localhost:3000/assets/public,301,Moved Permanently,50,423,163
+4690,Tue Jul 15 07:29:46 EDT 2025,Tue Jul 15 07:29:46 EDT 2025,GET,http://localhost:3000/assets/.htaccess,200,OK,123,469,80117
+4691,Tue Jul 15 07:29:46 EDT 2025,Tue Jul 15 07:29:46 EDT 2025,GET,http://localhost:3000/assets/public/images,301,Moved Permanently,84,430,170
+4692,Tue Jul 15 07:29:46 EDT 2025,Tue Jul 15 07:29:46 EDT 2025,GET,http://localhost:3000/assets/i18n/.htaccess,200,OK,202,469,80117
+4693,Tue Jul 15 07:29:46 EDT 2025,Tue Jul 15 07:29:46 EDT 2025,GET,http://localhost:3000/assets/public/.htaccess,200,OK,156,469,80117
+4694,Tue Jul 15 07:29:46 EDT 2025,Tue Jul 15 07:29:46 EDT 2025,GET,http://localhost:3000/assets/public/images/products,301,Moved Permanently,200,439,179
+4696,Tue Jul 15 07:29:46 EDT 2025,Tue Jul 15 07:29:46 EDT 2025,GET,http://localhost:3000/assets/public/images/products/.htaccess,200,OK,90,469,80117
+4695,Tue Jul 15 07:29:46 EDT 2025,Tue Jul 15 07:29:46 EDT 2025,GET,http://localhost:3000/assets/public/images/.htaccess,200,OK,335,469,80117
+4697,Tue Jul 15 07:29:46 EDT 2025,Tue Jul 15 07:29:46 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,28,363,2045
+4698,Tue Jul 15 07:29:46 EDT 2025,Tue Jul 15 07:29:47 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,81,363,2057
+4699,Tue Jul 15 07:29:47 EDT 2025,Tue Jul 15 07:29:47 EDT 2025,GET,http://localhost:3000/rest/.htaccess,500,Internal Server Error,38,363,2065
+4700,Tue Jul 15 07:29:47 EDT 2025,Tue Jul 15 07:29:47 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,61,363,2083
+4701,Tue Jul 15 07:29:47 EDT 2025,Tue Jul 15 07:29:47 EDT 2025,GET,http://localhost:3000/rest/admin/.htaccess,500,Internal Server Error,124,363,2077
+4702,Tue Jul 15 07:29:47 EDT 2025,Tue Jul 15 07:29:47 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,109,363,2063
+4703,Tue Jul 15 07:29:47 EDT 2025,Tue Jul 15 07:29:47 EDT 2025,GET,http://localhost:3000/rest/products/.htaccess,500,Internal Server Error,47,363,2083
+4704,Tue Jul 15 07:29:47 EDT 2025,Tue Jul 15 07:29:47 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,84,363,2055
+4705,Tue Jul 15 07:29:47 EDT 2025,Tue Jul 15 07:29:47 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,49,469,80117
+4706,Tue Jul 15 07:29:47 EDT 2025,Tue Jul 15 07:29:47 EDT 2025,GET,http://localhost:3000/rest/basket/.htaccess,200,OK,469,384,32
+4707,Tue Jul 15 07:29:47 EDT 2025,Tue Jul 15 07:29:47 EDT 2025,GET,http://localhost:3000/rest/user/.env,500,Internal Server Error,28,363,2065
+4708,Tue Jul 15 07:29:47 EDT 2025,Tue Jul 15 07:29:47 EDT 2025,GET,http://localhost:3000/socket.io/.env,400,Bad Request,30,230,40
+4709,Tue Jul 15 07:29:47 EDT 2025,Tue Jul 15 07:29:47 EDT 2025,GET,http://localhost:3000,200,OK,64,469,80117
+4710,Tue Jul 15 07:29:47 EDT 2025,Tue Jul 15 07:29:47 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,14,363,2043
+4711,Tue Jul 15 07:29:47 EDT 2025,Tue Jul 15 07:29:47 EDT 2025,GET,http://localhost:3000/.env,200,OK,72,469,80117
+4712,Tue Jul 15 07:29:47 EDT 2025,Tue Jul 15 07:29:48 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,285,390,85835
+4713,Tue Jul 15 07:29:48 EDT 2025,Tue Jul 15 07:29:48 EDT 2025,GET,http://localhost:3000/api/.env,500,Internal Server Error,24,363,2053
+4714,Tue Jul 15 07:29:48 EDT 2025,Tue Jul 15 07:29:48 EDT 2025,GET,http://localhost:3000/api/Challenges/.env,401,Unauthorized,96,353,234
+4715,Tue Jul 15 07:29:48 EDT 2025,Tue Jul 15 07:29:48 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,146,388,6258
+4716,Tue Jul 15 07:29:48 EDT 2025,Tue Jul 15 07:29:48 EDT 2025,GET,http://localhost:3000/api/Quantitys/.env,403,Forbidden,12,391,39
+4717,Tue Jul 15 07:29:48 EDT 2025,Tue Jul 15 07:29:48 EDT 2025,GET,http://localhost:3000/assets,301,Moved Permanently,36,416,156
+4718,Tue Jul 15 07:29:48 EDT 2025,Tue Jul 15 07:29:48 EDT 2025,GET,http://localhost:3000/assets/i18n,301,Moved Permanently,9,421,161
+4719,Tue Jul 15 07:29:48 EDT 2025,Tue Jul 15 07:29:48 EDT 2025,GET,http://localhost:3000/assets/public,301,Moved Permanently,16,423,163
+4720,Tue Jul 15 07:29:48 EDT 2025,Tue Jul 15 07:29:48 EDT 2025,GET,http://localhost:3000/assets/i18n/.env,200,OK,54,469,80117
+4721,Tue Jul 15 07:29:48 EDT 2025,Tue Jul 15 07:29:48 EDT 2025,GET,http://localhost:3000/assets/.env,200,OK,81,469,80117
+4722,Tue Jul 15 07:29:48 EDT 2025,Tue Jul 15 07:29:48 EDT 2025,GET,http://localhost:3000/assets/public/images,301,Moved Permanently,67,430,170
+4723,Tue Jul 15 07:29:48 EDT 2025,Tue Jul 15 07:29:48 EDT 2025,GET,http://localhost:3000/assets/public/.env,200,OK,63,469,80117
+4724,Tue Jul 15 07:29:48 EDT 2025,Tue Jul 15 07:29:48 EDT 2025,GET,http://localhost:3000/assets/public/images/products,301,Moved Permanently,4,439,179
+4725,Tue Jul 15 07:29:48 EDT 2025,Tue Jul 15 07:29:48 EDT 2025,GET,http://localhost:3000/assets/public/images/products/.env,200,OK,67,469,80117
+4726,Tue Jul 15 07:29:48 EDT 2025,Tue Jul 15 07:29:48 EDT 2025,GET,http://localhost:3000/assets/public/images/.env,200,OK,109,469,80117
+4727,Tue Jul 15 07:29:48 EDT 2025,Tue Jul 15 07:29:48 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,7,363,2045
+4728,Tue Jul 15 07:29:48 EDT 2025,Tue Jul 15 07:29:48 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,91,363,2057
+4729,Tue Jul 15 07:29:48 EDT 2025,Tue Jul 15 07:29:48 EDT 2025,GET,http://localhost:3000/rest/.env,500,Internal Server Error,12,363,2055
+4730,Tue Jul 15 07:29:48 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,GET,http://localhost:3000/rest/admin/.env,500,Internal Server Error,41,363,2067
+4731,Tue Jul 15 07:29:48 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,74,363,2083
+4732,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,11,363,2063
+4733,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,64,363,2055
+4734,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,GET,http://localhost:3000/rest/products/.env,500,Internal Server Error,86,363,2073
+4735,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,78,469,80117
+4736,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,GET,http://localhost:3000/rest/basket/.env,200,OK,403,384,32
+4737,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,GET,http://localhost:3000/rest/user/actuator/health,500,Internal Server Error,46,363,2087
+4738,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,GET,http://localhost:3000/lfm.php,200,OK,167,469,80117
+4740,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,GET,http://localhost:3000/rest/user/actuator/health,500,Internal Server Error,112,363,2087
+4739,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=%3C&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,126,230,34
+4741,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,GET,http://localhost:3000,200,OK,178,469,80117
+4742,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,GET,http://localhost:3000/.idea/WebServers.xml,200,OK,98,469,80117
+4743,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,50,230,34
+4744,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=system-property%28%27xsl%3Avendor%27%29%2F%3E&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,7,230,34
+4745,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,72,230,34
+4747,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,9,230,34
+4746,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,GET,http://localhost:3000/config/databases.yml,200,OK,83,469,80117
+4748,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,GET,http://localhost:3000/config/database.yml,200,OK,47,469,80117
+4749,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2Flocalhost%3A22%27%29%22%2F%3E&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,55,230,34
+4750,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:49 EDT 2025,GET,http://localhost:3000/.git/config,200,OK,27,469,80117
+4751,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,61,230,34
+4752,Tue Jul 15 07:29:49 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,POST,http://localhost:3000/rest/user/login,401,Unauthorized,408,387,26
+4753,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,2,230,34
+4754,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=%3C&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,26,230,40
+4755,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,20,230,40
+4756,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,GET,http://localhost:3000/.svn/entries,200,OK,42,469,80117
+4757,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=system-property%28%27xsl%3Avendor%27%29%2F%3E&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,26,230,40
+4758,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,4,230,40
+4759,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,GET,http://localhost:3000/.svn/wc.db,200,OK,28,469,80117
+4760,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,GET,http://localhost:3000/CVS/root,200,OK,54,469,80117
+4761,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,15,363,2043
+4762,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,GET,http://localhost:3000/server-status,200,OK,64,469,80117
+4763,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,GET,http://localhost:3000/core,200,OK,33,469,80117
+4764,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,GET,http://localhost:3000/sftp-config.json,200,OK,104,469,80117
+4765,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,GET,http://localhost:3000/WS_FTP.ini,200,OK,35,469,80117
+4766,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,GET,http://localhost:3000/ws_ftp.ini,200,OK,26,469,80117
+4767,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,GET,http://localhost:3000/WS_FTP.INI,200,OK,27,469,80117
+4768,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,GET,http://localhost:3000/filezilla.xml,200,OK,36,469,80117
+4769,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,GET,http://localhost:3000/sitemanager.xml,200,OK,142,469,80117
+4770,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,GET,http://localhost:3000/FileZilla.xml,200,OK,75,469,80117
+4771,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:50 EDT 2025,GET,http://localhost:3000/winscp.ini,200,OK,135,469,80117
+4772,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:51 EDT 2025,GET,http://localhost:3000/WinSCP.ini,200,OK,194,469,80117
+4773,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:51 EDT 2025,POST,http://localhost:3000/rest/user/login,500,Internal Server Error,1420,363,1340
+4774,Tue Jul 15 07:29:51 EDT 2025,Tue Jul 15 07:29:51 EDT 2025,GET,http://localhost:3000/.DS_Store,200,OK,157,469,80117
+4775,Tue Jul 15 07:29:51 EDT 2025,Tue Jul 15 07:29:51 EDT 2025,GET,http://localhost:3000/.php_cs.cache,200,OK,34,469,80117
+4776,Tue Jul 15 07:29:51 EDT 2025,Tue Jul 15 07:29:51 EDT 2025,GET,http://localhost:3000/DEADJOE,200,OK,23,469,80117
+4777,Tue Jul 15 07:29:51 EDT 2025,Tue Jul 15 07:29:51 EDT 2025,GET,http://localhost:3000/sites/default/private/files/backup_migrate/scheduled/test.txt,200,OK,21,469,80117
+4778,Tue Jul 15 07:29:51 EDT 2025,Tue Jul 15 07:29:51 EDT 2025,GET,http://localhost:3000/app/etc/local.xml,200,OK,88,469,80117
+4779,Tue Jul 15 07:29:51 EDT 2025,Tue Jul 15 07:29:51 EDT 2025,GET,http://localhost:3000/server.key,200,OK,40,469,80117
+4780,Tue Jul 15 07:29:51 EDT 2025,Tue Jul 15 07:29:51 EDT 2025,GET,http://localhost:3000/privatekey.key,200,OK,42,469,80117
+4781,Tue Jul 15 07:29:51 EDT 2025,Tue Jul 15 07:29:51 EDT 2025,GET,http://localhost:3000/myserver.key,200,OK,55,469,80117
+4782,Tue Jul 15 07:29:51 EDT 2025,Tue Jul 15 07:29:51 EDT 2025,GET,http://localhost:3000/key.pem,200,OK,34,469,80117
+4783,Tue Jul 15 07:29:51 EDT 2025,Tue Jul 15 07:29:51 EDT 2025,GET,http://localhost:3000/id_rsa,200,OK,59,469,80117
+4784,Tue Jul 15 07:29:51 EDT 2025,Tue Jul 15 07:29:51 EDT 2025,GET,http://localhost:3000/id_dsa,200,OK,32,469,80117
+4785,Tue Jul 15 07:29:52 EDT 2025,Tue Jul 15 07:29:52 EDT 2025,GET,http://localhost:3000/.ssh/id_rsa,200,OK,55,469,80117
+4786,Tue Jul 15 07:29:52 EDT 2025,Tue Jul 15 07:29:52 EDT 2025,GET,http://localhost:3000/.ssh/id_dsa,200,OK,56,469,80117
+4787,Tue Jul 15 07:29:52 EDT 2025,Tue Jul 15 07:29:52 EDT 2025,GET,http://localhost:3000/adminer.php,200,OK,78,469,80117
+4788,Tue Jul 15 07:29:52 EDT 2025,Tue Jul 15 07:29:52 EDT 2025,GET,http://localhost:3000/vb_test.php,200,OK,134,469,80117
+4789,Tue Jul 15 07:29:52 EDT 2025,Tue Jul 15 07:29:52 EDT 2025,GET,http://localhost:3000/CHANGELOG.txt,200,OK,76,469,80117
+4790,Tue Jul 15 07:29:52 EDT 2025,Tue Jul 15 07:29:52 EDT 2025,GET,http://localhost:3000/sites/default/files/.ht.sqlite,200,OK,45,469,80117
+4791,Tue Jul 15 07:29:52 EDT 2025,Tue Jul 15 07:29:52 EDT 2025,GET,http://localhost:3000/composer.json,200,OK,43,469,80117
+4792,Tue Jul 15 07:29:52 EDT 2025,Tue Jul 15 07:29:52 EDT 2025,GET,http://localhost:3000/composer.lock,200,OK,17,469,80117
+4793,Tue Jul 15 07:29:52 EDT 2025,Tue Jul 15 07:29:52 EDT 2025,GET,http://localhost:3000/vim_settings.xml,200,OK,81,469,80117
+4794,Tue Jul 15 07:29:52 EDT 2025,Tue Jul 15 07:29:52 EDT 2025,GET,http://localhost:3000/server-info,200,OK,50,469,80117
+4795,Tue Jul 15 07:29:52 EDT 2025,Tue Jul 15 07:29:52 EDT 2025,GET,http://localhost:3000/phpinfo.php,200,OK,68,469,80117
+4796,Tue Jul 15 07:29:52 EDT 2025,Tue Jul 15 07:29:52 EDT 2025,GET,http://localhost:3000/info.php,200,OK,65,469,80117
+4797,Tue Jul 15 07:29:52 EDT 2025,Tue Jul 15 07:29:52 EDT 2025,GET,http://localhost:3000/i.php,200,OK,110,469,80117
+4798,Tue Jul 15 07:29:52 EDT 2025,Tue Jul 15 07:29:53 EDT 2025,GET,http://localhost:3000/test.php,200,OK,49,469,80117
+4799,Tue Jul 15 07:29:53 EDT 2025,Tue Jul 15 07:29:53 EDT 2025,GET,http://localhost:3000/_wpeprivate/config.json,200,OK,42,469,80117
+4800,Tue Jul 15 07:29:53 EDT 2025,Tue Jul 15 07:29:53 EDT 2025,GET,http://localhost:3000/_framework/blazor.boot.json,200,OK,110,469,80117
+4801,Tue Jul 15 07:29:53 EDT 2025,Tue Jul 15 07:29:53 EDT 2025,GET,http://localhost:3000/.hg,200,OK,63,469,80117
+4803,Tue Jul 15 07:29:53 EDT 2025,Tue Jul 15 07:29:53 EDT 2025,GET,http://localhost:3000/.bzr,200,OK,61,469,80117
+4805,Tue Jul 15 07:29:51 EDT 2025,Tue Jul 15 07:29:53 EDT 2025,POST,http://localhost:3000/rest/user/login,500,Internal Server Error,2384,363,1265
+4806,Tue Jul 15 07:29:54 EDT 2025,Tue Jul 15 07:29:54 EDT 2025,GET,http://localhost:3000/._darcs,200,OK,59,469,80117
+4808,Tue Jul 15 07:29:54 EDT 2025,Tue Jul 15 07:29:55 EDT 2025,GET,http://localhost:3000/BitKeeper,200,OK,288,469,80117
+4810,Tue Jul 15 07:29:50 EDT 2025,Tue Jul 15 07:29:55 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,4927,390,85835
+4811,Tue Jul 15 07:29:53 EDT 2025,Tue Jul 15 07:29:55 EDT 2025,POST,http://localhost:3000/rest/user/login,500,Internal Server Error,1693,363,1364
+4812,Tue Jul 15 07:29:55 EDT 2025,Tue Jul 15 07:29:55 EDT 2025,POST,http://localhost:3000/rest/user/login,500,Internal Server Error,405,363,1352
+4813,Tue Jul 15 07:29:55 EDT 2025,Tue Jul 15 07:29:56 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,949,388,6258
+4814,Tue Jul 15 07:29:55 EDT 2025,Tue Jul 15 07:29:56 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=%3C,200,OK,950,384,30
+4815,Tue Jul 15 07:29:55 EDT 2025,Tue Jul 15 07:29:56 EDT 2025,POST,http://localhost:3000/rest/user/login,500,Internal Server Error,181,363,1347
+4816,Tue Jul 15 07:29:56 EDT 2025,Tue Jul 15 07:29:56 EDT 2025,GET,http://localhost:3000/assets,301,Moved Permanently,8,416,156
+4817,Tue Jul 15 07:29:56 EDT 2025,Tue Jul 15 07:29:56 EDT 2025,GET,http://localhost:3000/assets/i18n,301,Moved Permanently,27,421,161
+4818,Tue Jul 15 07:29:56 EDT 2025,Tue Jul 15 07:29:56 EDT 2025,GET,http://localhost:3000/assets/public,301,Moved Permanently,21,423,163
+4819,Tue Jul 15 07:29:56 EDT 2025,Tue Jul 15 07:29:56 EDT 2025,GET,http://localhost:3000/assets/public/images,301,Moved Permanently,4,430,170
+4820,Tue Jul 15 07:29:56 EDT 2025,Tue Jul 15 07:29:56 EDT 2025,GET,http://localhost:3000/assets/public/images/products,301,Moved Permanently,5,439,179
+4821,Tue Jul 15 07:29:56 EDT 2025,Tue Jul 15 07:29:56 EDT 2025,POST,http://localhost:3000/rest/user/login,500,Internal Server Error,126,363,1972
+4822,Tue Jul 15 07:29:56 EDT 2025,Tue Jul 15 07:29:56 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E,200,OK,251,384,30
+4823,Tue Jul 15 07:29:56 EDT 2025,Tue Jul 15 07:29:56 EDT 2025,POST,http://localhost:3000/rest/user/login,500,Internal Server Error,92,363,1401
+4824,Tue Jul 15 07:29:56 EDT 2025,Tue Jul 15 07:29:56 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,6,363,2045
+4825,Tue Jul 15 07:29:56 EDT 2025,Tue Jul 15 07:29:56 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,42,363,2057
+4826,Tue Jul 15 07:29:56 EDT 2025,Tue Jul 15 07:29:56 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,22,363,2083
+4827,Tue Jul 15 07:29:56 EDT 2025,Tue Jul 15 07:29:56 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,351,386,799
+4828,Tue Jul 15 07:29:56 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,414,386,799
+4829,Tue Jul 15 07:29:56 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=system-property%28%27xsl%3Avendor%27%29%2F%3E,200,OK,745,384,30
+4830,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,55,363,2063
+4831,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,22,363,2055
+4832,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,196,386,799
+4833,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/rest/products/search?q=%3C,200,OK,211,388,7308
+4834,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,153,386,799
+4835,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,200,OK,428,384,30
+4837,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/rest/products/search?q=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E,500,Internal Server Error,185,362,421
+4836,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,86,469,80117
+4838,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%3C&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,24,230,34
+4839,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%3C&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,19,129,0
+4840,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,6,230,34
+4841,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,4,129,0
+4842,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=system-property%28%27xsl%3Avendor%27%29%2F%3E&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,4,230,34
+4843,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=system-property%28%27xsl%3Avendor%27%29%2F%3E&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,5,129,0
+4844,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,5,230,34
+4845,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,6,129,0
+4846,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,8,230,34
+4847,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,7,129,0
+4848,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2Flocalhost%3A22%27%29%22%2F%3E&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,5,230,34
+4849,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2Flocalhost%3A22%27%29%22%2F%3E&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,5,129,0
+4850,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,5,230,34
+4851,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,5,129,0
+4852,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,16,230,34
+4853,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,18,129,0
+4854,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=%3C&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,7,230,40
+4855,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=%3C&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,7,92,17
+4856,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,3,92,17
+4857,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,10,230,40
+4858,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=system-property%28%27xsl%3Avendor%27%29%2F%3E&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,5,92,17
+4859,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=system-property%28%27xsl%3Avendor%27%29%2F%3E&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,4,230,40
+4860,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,5,92,17
+4861,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,6,230,40
+4862,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/rest/products/search?q=system-property%28%27xsl%3Avendor%27%29%2F%3E,500,Internal Server Error,209,362,371
+4863,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,200,OK,333,384,30
+4864,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/rest/products/search?q=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,500,Internal Server Error,94,362,437
+4865,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%3C&transport=polling&t=PWDr8wT,200,OK,25,230,96
+4866,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:57 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&transport=polling&t=PWDr8wT,200,OK,32,230,96
+4867,Tue Jul 15 07:29:58 EDT 2025,Tue Jul 15 07:29:58 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=system-property%28%27xsl%3Avendor%27%29%2F%3E&transport=polling&t=PWDr8wT,200,OK,5,230,96
+4868,Tue Jul 15 07:29:58 EDT 2025,Tue Jul 15 07:29:58 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=polling&t=PWDr8wT,200,OK,49,230,96
+4869,Tue Jul 15 07:29:58 EDT 2025,Tue Jul 15 07:29:58 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=polling&t=PWDr8wT,200,OK,2,230,96
+4870,Tue Jul 15 07:29:58 EDT 2025,Tue Jul 15 07:29:58 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2Flocalhost%3A22%27%29%22%2F%3E&transport=polling&t=PWDr8wT,200,OK,11,230,96
+4871,Tue Jul 15 07:29:58 EDT 2025,Tue Jul 15 07:29:58 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E&transport=polling&t=PWDr8wT,200,OK,20,230,96
+4872,Tue Jul 15 07:29:58 EDT 2025,Tue Jul 15 07:29:58 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E&transport=polling&t=PWDr8wT,200,OK,44,230,96
+4873,Tue Jul 15 07:29:58 EDT 2025,Tue Jul 15 07:29:58 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=%3C&t=PWDr8wT,400,Bad Request,11,230,40
+4874,Tue Jul 15 07:29:58 EDT 2025,Tue Jul 15 07:29:58 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&t=PWDr8wT,400,Bad Request,33,230,40
+4875,Tue Jul 15 07:29:58 EDT 2025,Tue Jul 15 07:29:58 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=system-property%28%27xsl%3Avendor%27%29%2F%3E&t=PWDr8wT,400,Bad Request,29,230,40
+4876,Tue Jul 15 07:29:58 EDT 2025,Tue Jul 15 07:29:58 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&t=PWDr8wT,400,Bad Request,5,230,40
+4877,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:58 EDT 2025,GET,http://localhost:3000/rest/products/search?q=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,500,Internal Server Error,642,362,429
+4878,Tue Jul 15 07:29:57 EDT 2025,Tue Jul 15 07:29:58 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2Flocalhost%3A22%27%29%22%2F%3E,200,OK,762,384,30
+4879,Tue Jul 15 07:29:58 EDT 2025,Tue Jul 15 07:29:58 EDT 2025,GET,http://localhost:3000/rest/products/search?q=%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2Flocalhost%3A22%27%29%22%2F%3E,500,Internal Server Error,96,362,427
+4880,Tue Jul 15 07:29:58 EDT 2025,Tue Jul 15 07:29:58 EDT 2025,GET,http://localhost:3000/rest/products/search?q=%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E,500,Internal Server Error,162,362,763
+4881,Tue Jul 15 07:29:58 EDT 2025,Tue Jul 15 07:29:58 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E,200,OK,263,384,30
+4882,Tue Jul 15 07:29:58 EDT 2025,Tue Jul 15 07:29:58 EDT 2025,GET,http://localhost:3000/rest/products/search?q=%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E,500,Internal Server Error,77,362,463
+4883,Tue Jul 15 07:29:58 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E,200,OK,69,384,30
+4884,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000,200,OK,98,469,80117
+4885,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,16,363,2043
+4886,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,102,390,85835
+4887,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,72,388,6258
+4888,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/assets,301,Moved Permanently,5,416,156
+4889,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/assets/i18n,301,Moved Permanently,4,421,161
+4890,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/assets/public,301,Moved Permanently,2,423,163
+4891,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/assets/public/images,301,Moved Permanently,3,430,170
+4892,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/assets/public/images/products,301,Moved Permanently,3,439,179
+4893,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,12,363,2045
+4894,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,50,363,2057
+4895,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,16,363,2083
+4896,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,62,363,2063
+4897,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,20,363,2055
+4898,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,32,469,80117
+4899,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,13,230,34
+4901,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000,200,OK,31,469,80117
+4902,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/,200,OK,7,469,80117
+4903,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/,200,OK,6,469,80117
+4905,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000,200,OK,28,469,80117
+4904,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/,200,OK,6,469,80117
+4906,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,9,230,34
+4908,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/,200,OK,20,469,80117
+4909,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000,200,OK,33,469,80117
+4910,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000/,200,OK,7,469,80117
+4911,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:29:59 EDT 2025,GET,http://localhost:3000,200,OK,9,469,80117
+4912,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/,200,OK,80,469,80117
+4913,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000,200,OK,85,469,80117
+4914,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/,200,OK,11,469,80117
+4915,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000,200,OK,28,469,80117
+4916,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/,200,OK,24,469,80117
+4917,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000,200,OK,18,469,80117
+4918,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/,200,OK,25,469,80117
+4919,Tue Jul 15 07:29:59 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,354,386,799
+4921,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000,200,OK,21,469,80117
+4922,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/,200,OK,21,469,80117
+4923,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000,200,OK,11,469,80117
+4924,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/,200,OK,44,469,80117
+4925,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000,200,OK,63,469,80117
+4926,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/,200,OK,51,469,80117
+4927,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000,200,OK,14,469,80117
+4928,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,13,230,34
+4930,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000,200,OK,125,469,80117
+4931,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/705.js,200,OK,8,481,11121
+4932,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,79,386,799
+4933,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000,200,OK,26,469,80117
+4934,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/705.js,200,OK,20,481,11121
+4936,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/705.js,200,OK,22,481,11121
+4937,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/705.js,200,OK,14,481,11121
+4938,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/705.js,200,OK,18,481,11121
+4939,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/705.js,200,OK,12,481,11121
+4940,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/705.js,200,OK,10,481,11121
+4941,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,22,363,2043
+4942,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,44,230,34
+4944,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/705.js,200,OK,54,481,11121
+4945,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/MaterialIcons-Regular.woff2,200,OK,32,431,60840
+4946,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/705.js,200,OK,11,481,11121
+4947,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/705.js,200,OK,6,481,11121
+4948,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/MaterialIcons-Regular.woff2,200,OK,10,431,60840
+4949,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/MaterialIcons-Regular.woff2,200,OK,28,431,60840
+4950,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/705.js,200,OK,47,481,11121
+4951,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/705.js,200,OK,53,481,11121
+4952,Tue Jul 15 07:30:00 EDT 2025,Tue Jul 15 07:30:00 EDT 2025,GET,http://localhost:3000/MaterialIcons-Regular.woff2,200,OK,43,431,60840
+4953,Tue Jul 15 07:30:01 EDT 2025,Tue Jul 15 07:30:01 EDT 2025,GET,http://localhost:3000/MaterialIcons-Regular.woff2,200,OK,17,431,60840
+4954,Tue Jul 15 07:30:01 EDT 2025,Tue Jul 15 07:30:01 EDT 2025,GET,http://localhost:3000/MaterialIcons-Regular.woff2,200,OK,110,431,60840
+4955,Tue Jul 15 07:30:01 EDT 2025,Tue Jul 15 07:30:01 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,321,363,2043
+4956,Tue Jul 15 07:30:01 EDT 2025,Tue Jul 15 07:30:01 EDT 2025,GET,http://localhost:3000/MaterialIcons-Regular.woff2,200,OK,337,431,60840
+4957,Tue Jul 15 07:30:01 EDT 2025,Tue Jul 15 07:30:01 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,51,363,2043
+4958,Tue Jul 15 07:30:01 EDT 2025,Tue Jul 15 07:30:01 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,19,363,2043
+4959,Tue Jul 15 07:30:01 EDT 2025,Tue Jul 15 07:30:01 EDT 2025,GET,http://localhost:3000/MaterialIcons-Regular.woff2,200,OK,82,431,60840
+4960,Tue Jul 15 07:30:01 EDT 2025,Tue Jul 15 07:30:01 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,57,363,2043
+4961,Tue Jul 15 07:30:01 EDT 2025,Tue Jul 15 07:30:01 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,9,363,2043
+4962,Tue Jul 15 07:30:01 EDT 2025,Tue Jul 15 07:30:01 EDT 2025,GET,http://localhost:3000/MaterialIcons-Regular.woff2,200,OK,109,431,60840
+4963,Tue Jul 15 07:30:01 EDT 2025,Tue Jul 15 07:30:01 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,123,363,2043
+4964,Tue Jul 15 07:30:01 EDT 2025,Tue Jul 15 07:30:01 EDT 2025,GET,http://localhost:3000/MaterialIcons-Regular.woff2,200,OK,89,431,60840
+4965,Tue Jul 15 07:30:01 EDT 2025,Tue Jul 15 07:30:01 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,48,363,2043
+4966,Tue Jul 15 07:30:01 EDT 2025,Tue Jul 15 07:30:01 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,59,363,2043
+4967,Tue Jul 15 07:30:01 EDT 2025,Tue Jul 15 07:30:01 EDT 2025,GET,http://localhost:3000/MaterialIcons-Regular.woff2,200,OK,156,431,60840
+4968,Tue Jul 15 07:30:01 EDT 2025,Tue Jul 15 07:30:02 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,67,363,2043
+4969,Tue Jul 15 07:30:02 EDT 2025,Tue Jul 15 07:30:02 EDT 2025,GET,http://localhost:3000/MaterialIcons-Regular.woff2,200,OK,130,431,60840
+4970,Tue Jul 15 07:30:02 EDT 2025,Tue Jul 15 07:30:02 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,150,363,2043
+4971,Tue Jul 15 07:30:02 EDT 2025,Tue Jul 15 07:30:02 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,35,363,2043
+4972,Tue Jul 15 07:30:02 EDT 2025,Tue Jul 15 07:30:02 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,28,230,34
+4974,Tue Jul 15 07:30:02 EDT 2025,Tue Jul 15 07:30:02 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,69,363,2043
+4975,Tue Jul 15 07:30:02 EDT 2025,Tue Jul 15 07:30:02 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,11,230,34
+4977,Tue Jul 15 07:30:01 EDT 2025,Tue Jul 15 07:30:02 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,1260,386,799
+4979,Tue Jul 15 07:30:03 EDT 2025,Tue Jul 15 07:30:03 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,16,230,34
+4981,Tue Jul 15 07:30:01 EDT 2025,Tue Jul 15 07:30:03 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,2326,390,85835
+4982,Tue Jul 15 07:30:03 EDT 2025,Tue Jul 15 07:30:03 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,39,230,34
+4984,Tue Jul 15 07:30:03 EDT 2025,Tue Jul 15 07:30:03 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,453,386,799
+4986,Tue Jul 15 07:30:03 EDT 2025,Tue Jul 15 07:30:03 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=Score%20Board,200,OK,326,386,696
+4987,Tue Jul 15 07:30:03 EDT 2025,Tue Jul 15 07:30:03 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,325,388,6258
+4988,Tue Jul 15 07:30:03 EDT 2025,Tue Jul 15 07:30:03 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,346,390,85835
+4989,Tue Jul 15 07:30:03 EDT 2025,Tue Jul 15 07:30:03 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=Score%20Board,200,OK,131,386,696
+4990,Tue Jul 15 07:30:03 EDT 2025,Tue Jul 15 07:30:03 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,122,390,85835
+4991,Tue Jul 15 07:30:04 EDT 2025,Tue Jul 15 07:30:04 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,6,230,34
+4993,Tue Jul 15 07:30:04 EDT 2025,Tue Jul 15 07:30:04 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,120,386,799
+4995,Tue Jul 15 07:30:03 EDT 2025,Tue Jul 15 07:30:04 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=Score%20Board,200,OK,225,386,696
+4996,Tue Jul 15 07:30:03 EDT 2025,Tue Jul 15 07:30:04 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,209,390,85835
+4997,Tue Jul 15 07:30:04 EDT 2025,Tue Jul 15 07:30:04 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=Score%20Board,200,OK,89,386,696
+4998,Tue Jul 15 07:30:04 EDT 2025,Tue Jul 15 07:30:04 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,123,390,85835
+4999,Tue Jul 15 07:30:04 EDT 2025,Tue Jul 15 07:30:04 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=Score%20Board,200,OK,250,386,696
+5001,Tue Jul 15 07:30:04 EDT 2025,Tue Jul 15 07:30:04 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,36,230,34
+5000,Tue Jul 15 07:30:04 EDT 2025,Tue Jul 15 07:30:04 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,189,386,799
+5004,Tue Jul 15 07:30:05 EDT 2025,Tue Jul 15 07:30:05 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,262,390,85835
+5005,Tue Jul 15 07:30:05 EDT 2025,Tue Jul 15 07:30:05 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=Score%20Board,200,OK,242,386,696
+5006,Tue Jul 15 07:30:05 EDT 2025,Tue Jul 15 07:30:05 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,134,390,85835
+5007,Tue Jul 15 07:30:05 EDT 2025,Tue Jul 15 07:30:05 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=Score%20Board,200,OK,137,386,696
+5008,Tue Jul 15 07:30:05 EDT 2025,Tue Jul 15 07:30:05 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,41,230,34
+5010,Tue Jul 15 07:30:05 EDT 2025,Tue Jul 15 07:30:05 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,113,386,799
+5012,Tue Jul 15 07:30:05 EDT 2025,Tue Jul 15 07:30:05 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,229,390,85835
+5013,Tue Jul 15 07:30:05 EDT 2025,Tue Jul 15 07:30:05 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=Score%20Board,200,OK,237,386,696
+5014,Tue Jul 15 07:30:05 EDT 2025,Tue Jul 15 07:30:05 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,118,390,85835
+5015,Tue Jul 15 07:30:05 EDT 2025,Tue Jul 15 07:30:05 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=Score%20Board,200,OK,109,386,696
+5016,Tue Jul 15 07:30:05 EDT 2025,Tue Jul 15 07:30:05 EDT 2025,POST,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr9pp&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,31,230,34
+5018,Tue Jul 15 07:30:05 EDT 2025,Tue Jul 15 07:30:06 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,91,386,799
+5020,Tue Jul 15 07:30:05 EDT 2025,Tue Jul 15 07:30:06 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=Score%20Board,200,OK,161,386,696
+5021,Tue Jul 15 07:30:05 EDT 2025,Tue Jul 15 07:30:06 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,175,390,85835
+5022,Tue Jul 15 07:30:06 EDT 2025,Tue Jul 15 07:30:06 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,122,390,85835
+5023,Tue Jul 15 07:30:06 EDT 2025,Tue Jul 15 07:30:06 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=Score%20Board,200,OK,139,386,696
+5024,Tue Jul 15 07:30:06 EDT 2025,Tue Jul 15 07:30:06 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,129,386,799
+5026,Tue Jul 15 07:30:06 EDT 2025,Tue Jul 15 07:30:06 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,187,388,6258
+5027,Tue Jul 15 07:30:06 EDT 2025,Tue Jul 15 07:30:06 EDT 2025,GET,http://localhost:3000/api/Challenges/?name=Score%20Board,200,OK,292,386,696
+5028,Tue Jul 15 07:30:06 EDT 2025,Tue Jul 15 07:30:06 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,305,390,85835
+5029,Tue Jul 15 07:30:06 EDT 2025,Tue Jul 15 07:30:06 EDT 2025,GET,http://localhost:3000/assets,301,Moved Permanently,137,416,156
+5030,Tue Jul 15 07:30:06 EDT 2025,Tue Jul 15 07:30:06 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,245,386,799
+5032,Tue Jul 15 07:30:06 EDT 2025,Tue Jul 15 07:30:06 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,326,388,6258
+5033,Tue Jul 15 07:30:06 EDT 2025,Tue Jul 15 07:30:06 EDT 2025,GET,http://localhost:3000/api/Quantitys/,200,OK,305,388,6258
+5034,Tue Jul 15 07:30:06 EDT 2025,Tue Jul 15 07:30:06 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,289,390,85835
+5035,Tue Jul 15 07:30:06 EDT 2025,Tue Jul 15 07:30:06 EDT 2025,GET,http://localhost:3000/assets/i18n,301,Moved Permanently,31,421,161
+5036,Tue Jul 15 07:30:06 EDT 2025,Tue Jul 15 07:30:06 EDT 2025,GET,http://localhost:3000/assets,200,OK,22,469,80117
+5038,Tue Jul 15 07:30:06 EDT 2025,Tue Jul 15 07:30:06 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,162,388,6258
+5039,Tue Jul 15 07:30:06 EDT 2025,Tue Jul 15 07:30:06 EDT 2025,GET,http://localhost:3000/api/Quantitys/,200,OK,163,388,6258
+5040,Tue Jul 15 07:30:06 EDT 2025,Tue Jul 15 07:30:07 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,92,386,799
+5042,Tue Jul 15 07:30:07 EDT 2025,Tue Jul 15 07:30:07 EDT 2025,GET,http://localhost:3000/assets,200,OK,3,469,80117
+5044,Tue Jul 15 07:30:06 EDT 2025,Tue Jul 15 07:30:07 EDT 2025,GET,http://localhost:3000/api/Quantitys/,200,OK,640,388,6258
+5045,Tue Jul 15 07:30:06 EDT 2025,Tue Jul 15 07:30:07 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,655,388,6258
+5046,Tue Jul 15 07:30:07 EDT 2025,Tue Jul 15 07:30:07 EDT 2025,GET,http://localhost:3000/assets,200,OK,13,469,80117
+5048,Tue Jul 15 07:30:07 EDT 2025,Tue Jul 15 07:30:07 EDT 2025,POST,http://localhost:3000/rest/user/login,200,OK,238,386,799
+5050,Tue Jul 15 07:30:07 EDT 2025,Tue Jul 15 07:30:08 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,386,388,6258
+5051,Tue Jul 15 07:30:07 EDT 2025,Tue Jul 15 07:30:08 EDT 2025,GET,http://localhost:3000/api/Quantitys/,200,OK,407,388,6258
+5052,Tue Jul 15 07:30:08 EDT 2025,Tue Jul 15 07:30:08 EDT 2025,GET,http://localhost:3000/assets,200,OK,9,469,80117
+5054,Tue Jul 15 07:30:08 EDT 2025,Tue Jul 15 07:30:08 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,216,388,6258
+5055,Tue Jul 15 07:30:08 EDT 2025,Tue Jul 15 07:30:08 EDT 2025,GET,http://localhost:3000/api/Quantitys/,200,OK,213,388,6258
+5056,Tue Jul 15 07:30:08 EDT 2025,Tue Jul 15 07:30:08 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,108,388,6258
+5057,Tue Jul 15 07:30:08 EDT 2025,Tue Jul 15 07:30:08 EDT 2025,GET,http://localhost:3000/api/Quantitys/,200,OK,92,388,6258
+5058,Tue Jul 15 07:30:08 EDT 2025,Tue Jul 15 07:30:08 EDT 2025,GET,http://localhost:3000/assets/i18n,200,OK,20,469,80117
+5060,Tue Jul 15 07:30:08 EDT 2025,Tue Jul 15 07:30:08 EDT 2025,GET,http://localhost:3000/assets,200,OK,2,469,80117
+5062,Tue Jul 15 07:30:08 EDT 2025,Tue Jul 15 07:30:08 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,455,388,6258
+5063,Tue Jul 15 07:30:08 EDT 2025,Tue Jul 15 07:30:08 EDT 2025,GET,http://localhost:3000/api/Quantitys/,200,OK,434,388,6258
+5064,Tue Jul 15 07:30:08 EDT 2025,Tue Jul 15 07:30:08 EDT 2025,GET,http://localhost:3000/assets/i18n,200,OK,17,469,80117
+5066,Tue Jul 15 07:30:09 EDT 2025,Tue Jul 15 07:30:09 EDT 2025,GET,http://localhost:3000/assets,200,OK,37,469,80117
+5068,Tue Jul 15 07:30:08 EDT 2025,Tue Jul 15 07:30:09 EDT 2025,GET,http://localhost:3000/api/Quantitys/,200,OK,502,388,6258
+5069,Tue Jul 15 07:30:08 EDT 2025,Tue Jul 15 07:30:09 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,530,388,6258
+5070,Tue Jul 15 07:30:09 EDT 2025,Tue Jul 15 07:30:09 EDT 2025,GET,http://localhost:3000/assets/i18n,200,OK,14,469,80117
+5072,Tue Jul 15 07:30:09 EDT 2025,Tue Jul 15 07:30:09 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,265,388,6258
+5073,Tue Jul 15 07:30:09 EDT 2025,Tue Jul 15 07:30:09 EDT 2025,GET,http://localhost:3000/api/Quantitys/,200,OK,292,388,6258
+5074,Tue Jul 15 07:30:09 EDT 2025,Tue Jul 15 07:30:09 EDT 2025,GET,http://localhost:3000/api/Quantitys/,200,OK,118,388,6258
+5075,Tue Jul 15 07:30:09 EDT 2025,Tue Jul 15 07:30:09 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,133,388,6258
+5076,Tue Jul 15 07:30:09 EDT 2025,Tue Jul 15 07:30:09 EDT 2025,GET,http://localhost:3000/assets,200,OK,22,469,80117
+5078,Tue Jul 15 07:30:09 EDT 2025,Tue Jul 15 07:30:09 EDT 2025,GET,http://localhost:3000/assets/i18n,200,OK,6,469,80117
+5080,Tue Jul 15 07:30:09 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/api/Quantitys/,200,OK,532,388,6258
+5081,Tue Jul 15 07:30:09 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,523,388,6258
+5082,Tue Jul 15 07:30:10 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/assets,200,OK,9,469,80117
+5084,Tue Jul 15 07:30:10 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/assets/i18n,200,OK,29,469,80117
+5086,Tue Jul 15 07:30:10 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/assets/public,301,Moved Permanently,8,423,163
+5087,Tue Jul 15 07:30:10 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/assets/i18n/en.json,200,OK,15,475,32473
+5088,Tue Jul 15 07:30:10 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/assets/i18n/en.json,200,OK,4,475,32473
+5089,Tue Jul 15 07:30:10 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/assets/i18n/en.json,200,OK,5,475,32473
+5090,Tue Jul 15 07:30:10 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/assets/i18n/en.json,200,OK,4,475,32473
+5091,Tue Jul 15 07:30:10 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/assets/i18n/en.json,200,OK,5,475,32473
+5092,Tue Jul 15 07:30:10 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/assets/i18n/en.json,200,OK,4,475,32473
+5093,Tue Jul 15 07:30:10 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/assets/i18n/en.json,200,OK,6,475,32473
+5094,Tue Jul 15 07:30:10 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/assets/i18n/en.json,200,OK,10,475,32473
+5095,Tue Jul 15 07:30:10 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/assets/i18n/en.json,200,OK,15,475,32473
+5096,Tue Jul 15 07:30:10 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/assets/i18n/en.json,200,OK,77,475,32473
+5097,Tue Jul 15 07:30:10 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/assets/i18n/en.json,200,OK,21,475,32473
+5098,Tue Jul 15 07:30:10 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/assets/i18n/en.json,200,OK,26,475,32473
+5099,Tue Jul 15 07:30:10 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/assets,200,OK,44,469,80117
+5101,Tue Jul 15 07:30:10 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/assets/i18n,200,OK,44,469,80117
+5103,Tue Jul 15 07:30:10 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/api/Quantitys/,200,OK,615,388,6258
+5104,Tue Jul 15 07:30:10 EDT 2025,Tue Jul 15 07:30:10 EDT 2025,GET,http://localhost:3000/assets/public,200,OK,21,469,80117
+5106,Tue Jul 15 07:30:11 EDT 2025,Tue Jul 15 07:30:11 EDT 2025,GET,http://localhost:3000/assets/public/images,301,Moved Permanently,8,430,170
+5107,Tue Jul 15 07:30:11 EDT 2025,Tue Jul 15 07:30:11 EDT 2025,GET,http://localhost:3000/assets/public/favicon_js.ico,200,OK,24,456,15086
+5108,Tue Jul 15 07:30:11 EDT 2025,Tue Jul 15 07:30:11 EDT 2025,GET,http://localhost:3000/assets/public/favicon_js.ico,200,OK,18,456,15086
+5109,Tue Jul 15 07:30:11 EDT 2025,Tue Jul 15 07:30:11 EDT 2025,GET,http://localhost:3000/assets/public/favicon_js.ico,200,OK,7,456,15086
+5110,Tue Jul 15 07:30:11 EDT 2025,Tue Jul 15 07:30:11 EDT 2025,GET,http://localhost:3000/assets/public/favicon_js.ico,200,OK,14,456,15086
+5111,Tue Jul 15 07:30:11 EDT 2025,Tue Jul 15 07:30:11 EDT 2025,GET,http://localhost:3000/assets/public/favicon_js.ico,200,OK,9,456,15086
+5112,Tue Jul 15 07:30:11 EDT 2025,Tue Jul 15 07:30:11 EDT 2025,GET,http://localhost:3000/assets/public/favicon_js.ico,200,OK,14,456,15086
+5113,Tue Jul 15 07:30:11 EDT 2025,Tue Jul 15 07:30:11 EDT 2025,GET,http://localhost:3000/assets/public/favicon_js.ico,200,OK,146,456,15086
+5114,Tue Jul 15 07:30:11 EDT 2025,Tue Jul 15 07:30:11 EDT 2025,GET,http://localhost:3000/assets,200,OK,4,469,80117
+5116,Tue Jul 15 07:30:11 EDT 2025,Tue Jul 15 07:30:11 EDT 2025,GET,http://localhost:3000/assets/public/favicon_js.ico,200,OK,7,456,15086
+5117,Tue Jul 15 07:30:11 EDT 2025,Tue Jul 15 07:30:11 EDT 2025,GET,http://localhost:3000/assets/public/favicon_js.ico,200,OK,31,456,15086
+5118,Tue Jul 15 07:30:11 EDT 2025,Tue Jul 15 07:30:11 EDT 2025,GET,http://localhost:3000/assets/public/favicon_js.ico,200,OK,41,456,15086
+5119,Tue Jul 15 07:30:11 EDT 2025,Tue Jul 15 07:30:11 EDT 2025,GET,http://localhost:3000/assets/public/favicon_js.ico,200,OK,16,456,15086
+5120,Tue Jul 15 07:30:11 EDT 2025,Tue Jul 15 07:30:11 EDT 2025,GET,http://localhost:3000/assets/public/favicon_js.ico,200,OK,16,456,15086
+5121,Tue Jul 15 07:30:11 EDT 2025,Tue Jul 15 07:30:11 EDT 2025,GET,http://localhost:3000/assets/public/images,200,OK,7,469,80117
+5123,Tue Jul 15 07:30:11 EDT 2025,Tue Jul 15 07:30:11 EDT 2025,GET,http://localhost:3000/assets/i18n,200,OK,7,469,80117
+5125,Tue Jul 15 07:30:11 EDT 2025,Tue Jul 15 07:30:11 EDT 2025,GET,http://localhost:3000/assets/public,200,OK,101,469,80117
+5127,Tue Jul 15 07:30:12 EDT 2025,Tue Jul 15 07:30:12 EDT 2025,GET,http://localhost:3000/assets,200,OK,2,469,80117
+5129,Tue Jul 15 07:30:12 EDT 2025,Tue Jul 15 07:30:12 EDT 2025,GET,http://localhost:3000/assets/public,200,OK,22,469,80117
+5130,Tue Jul 15 07:30:12 EDT 2025,Tue Jul 15 07:30:12 EDT 2025,GET,http://localhost:3000/assets/i18n,200,OK,35,469,80117
+5131,Tue Jul 15 07:30:12 EDT 2025,Tue Jul 15 07:30:12 EDT 2025,GET,http://localhost:3000/assets/public/images,200,OK,19,469,80117
+5135,Tue Jul 15 07:30:12 EDT 2025,Tue Jul 15 07:30:12 EDT 2025,GET,http://localhost:3000/assets/public/images,200,OK,4,469,80117
+5137,Tue Jul 15 07:30:12 EDT 2025,Tue Jul 15 07:30:12 EDT 2025,GET,http://localhost:3000/assets/public,200,OK,5,469,80117
+5138,Tue Jul 15 07:30:12 EDT 2025,Tue Jul 15 07:30:12 EDT 2025,GET,http://localhost:3000/assets/i18n,200,OK,10,469,80117
+5141,Tue Jul 15 07:30:12 EDT 2025,Tue Jul 15 07:30:12 EDT 2025,GET,http://localhost:3000/assets,200,OK,84,469,80117
+5143,Tue Jul 15 07:30:13 EDT 2025,Tue Jul 15 07:30:13 EDT 2025,GET,http://localhost:3000/assets/public/images/products,301,Moved Permanently,23,439,179
+5144,Tue Jul 15 07:30:13 EDT 2025,Tue Jul 15 07:30:13 EDT 2025,GET,http://localhost:3000/assets/public/images,200,OK,20,469,80117
+5146,Tue Jul 15 07:30:13 EDT 2025,Tue Jul 15 07:30:13 EDT 2025,GET,http://localhost:3000/assets/public,200,OK,18,469,80117
+5148,Tue Jul 15 07:30:13 EDT 2025,Tue Jul 15 07:30:13 EDT 2025,GET,http://localhost:3000/assets/i18n,200,OK,30,469,80117
+5150,Tue Jul 15 07:30:13 EDT 2025,Tue Jul 15 07:30:13 EDT 2025,GET,http://localhost:3000/assets/public/images/JuiceShop_Logo.png,200,OK,61,431,75029
+5151,Tue Jul 15 07:30:13 EDT 2025,Tue Jul 15 07:30:13 EDT 2025,GET,http://localhost:3000/assets/public/images/JuiceShop_Logo.png,200,OK,3,431,75029
+5152,Tue Jul 15 07:30:13 EDT 2025,Tue Jul 15 07:30:13 EDT 2025,GET,http://localhost:3000/assets/public/images/JuiceShop_Logo.png,200,OK,4,431,75029
+5153,Tue Jul 15 07:30:13 EDT 2025,Tue Jul 15 07:30:13 EDT 2025,GET,http://localhost:3000/assets/public/images/JuiceShop_Logo.png,200,OK,3,431,75029
+5154,Tue Jul 15 07:30:13 EDT 2025,Tue Jul 15 07:30:13 EDT 2025,GET,http://localhost:3000/assets/public/images/JuiceShop_Logo.png,200,OK,3,431,75029
+5155,Tue Jul 15 07:30:13 EDT 2025,Tue Jul 15 07:30:13 EDT 2025,GET,http://localhost:3000/assets/public/images/JuiceShop_Logo.png,200,OK,3,431,75029
+5156,Tue Jul 15 07:30:13 EDT 2025,Tue Jul 15 07:30:13 EDT 2025,GET,http://localhost:3000/assets/public/images/JuiceShop_Logo.png,200,OK,4,431,75029
+5157,Tue Jul 15 07:30:13 EDT 2025,Tue Jul 15 07:30:13 EDT 2025,GET,http://localhost:3000/assets/public/images/JuiceShop_Logo.png,200,OK,52,431,75029
+5158,Tue Jul 15 07:30:13 EDT 2025,Tue Jul 15 07:30:13 EDT 2025,GET,http://localhost:3000/assets/public/images/JuiceShop_Logo.png,200,OK,72,431,75029
+5159,Tue Jul 15 07:30:13 EDT 2025,Tue Jul 15 07:30:13 EDT 2025,GET,http://localhost:3000/assets/public/images/JuiceShop_Logo.png,200,OK,22,431,75029
+5160,Tue Jul 15 07:30:13 EDT 2025,Tue Jul 15 07:30:13 EDT 2025,GET,http://localhost:3000/assets/public/images/JuiceShop_Logo.png,200,OK,17,431,75029
+5161,Tue Jul 15 07:30:13 EDT 2025,Tue Jul 15 07:30:13 EDT 2025,GET,http://localhost:3000/assets/public/images/JuiceShop_Logo.png,200,OK,64,431,75029
+5162,Tue Jul 15 07:30:13 EDT 2025,Tue Jul 15 07:30:13 EDT 2025,GET,http://localhost:3000/assets/public/images/products,200,OK,5,469,80117
+5164,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/i18n,200,OK,7,469,80117
+5166,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/public/images/products,200,OK,8,469,80117
+5168,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/public/images,200,OK,142,469,80117
+5170,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/public,200,OK,161,469,80117
+5172,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/i18n,200,OK,3,469,80117
+5174,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/public,200,OK,6,469,80117
+5176,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/public/images,200,OK,7,469,80117
+5178,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/public/images/products,200,OK,13,469,80117
+5180,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_juice.jpg,200,OK,130,431,15291
+5181,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_juice.jpg,200,OK,23,431,15291
+5182,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_juice.jpg,200,OK,22,431,15291
+5183,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_juice.jpg,200,OK,48,431,15291
+5184,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_juice.jpg,200,OK,15,431,15291
+5185,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_juice.jpg,200,OK,3,431,15291
+5186,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_juice.jpg,200,OK,3,431,15291
+5187,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_juice.jpg,200,OK,13,431,15291
+5188,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_juice.jpg,200,OK,11,431,15291
+5189,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_juice.jpg,200,OK,24,431,15291
+5190,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_juice.jpg,200,OK,10,431,15291
+5191,Tue Jul 15 07:30:14 EDT 2025,Tue Jul 15 07:30:14 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_juice.jpg,200,OK,10,431,15291
+5192,Tue Jul 15 07:30:15 EDT 2025,Tue Jul 15 07:30:15 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_pressings.jpg,200,OK,69,431,29163
+5193,Tue Jul 15 07:30:15 EDT 2025,Tue Jul 15 07:30:15 EDT 2025,GET,http://localhost:3000/assets/public,200,OK,19,469,80117
+5195,Tue Jul 15 07:30:15 EDT 2025,Tue Jul 15 07:30:15 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_pressings.jpg,200,OK,74,431,29163
+5196,Tue Jul 15 07:30:15 EDT 2025,Tue Jul 15 07:30:15 EDT 2025,GET,http://localhost:3000/assets/public/images/products,200,OK,28,469,80117
+5197,Tue Jul 15 07:30:15 EDT 2025,Tue Jul 15 07:30:15 EDT 2025,GET,http://localhost:3000/assets/public/images,200,OK,16,469,80117
+5200,Tue Jul 15 07:30:15 EDT 2025,Tue Jul 15 07:30:15 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_pressings.jpg,200,OK,39,431,29163
+5201,Tue Jul 15 07:30:15 EDT 2025,Tue Jul 15 07:30:15 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_pressings.jpg,200,OK,62,431,29163
+5203,Tue Jul 15 07:30:15 EDT 2025,Tue Jul 15 07:30:15 EDT 2025,GET,http://localhost:3000/assets/public/images/products,200,OK,41,469,80117
+5202,Tue Jul 15 07:30:15 EDT 2025,Tue Jul 15 07:30:15 EDT 2025,GET,http://localhost:3000/assets/public,200,OK,43,469,80117
+5205,Tue Jul 15 07:30:15 EDT 2025,Tue Jul 15 07:30:15 EDT 2025,GET,http://localhost:3000/assets/public/images,200,OK,36,469,80117
+5207,Tue Jul 15 07:30:15 EDT 2025,Tue Jul 15 07:30:15 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_pressings.jpg,200,OK,244,431,29163
+5209,Tue Jul 15 07:30:15 EDT 2025,Tue Jul 15 07:30:15 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_pressings.jpg,200,OK,6,431,29163
+5210,Tue Jul 15 07:30:15 EDT 2025,Tue Jul 15 07:30:15 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_pressings.jpg,200,OK,74,431,29163
+5211,Tue Jul 15 07:30:15 EDT 2025,Tue Jul 15 07:30:15 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_pressings.jpg,200,OK,21,431,29163
+5212,Tue Jul 15 07:30:15 EDT 2025,Tue Jul 15 07:30:15 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_pressings.jpg,200,OK,20,431,29163
+5213,Tue Jul 15 07:30:15 EDT 2025,Tue Jul 15 07:30:15 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_pressings.jpg,200,OK,4,431,29163
+5214,Tue Jul 15 07:30:15 EDT 2025,Tue Jul 15 07:30:15 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_pressings.jpg,200,OK,95,431,29163
+5215,Tue Jul 15 07:30:15 EDT 2025,Tue Jul 15 07:30:15 EDT 2025,GET,http://localhost:3000/assets/public/images/products/apple_pressings.jpg,200,OK,22,431,29163
+5216,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/artwork2.jpg,200,OK,142,431,35878
+5217,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/artwork2.jpg,200,OK,6,431,35878
+5218,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/artwork2.jpg,200,OK,7,431,35878
+5219,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/artwork2.jpg,200,OK,16,431,35878
+5220,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/artwork2.jpg,200,OK,3,431,35878
+5221,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/artwork2.jpg,200,OK,3,431,35878
+5222,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/artwork2.jpg,200,OK,11,431,35878
+5223,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/artwork2.jpg,200,OK,69,431,35878
+5224,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products,200,OK,15,469,80117
+5226,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public,200,OK,34,469,80117
+5228,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images,200,OK,17,469,80117
+5230,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/artwork2.jpg,200,OK,76,431,35878
+5231,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/artwork2.jpg,200,OK,3,431,35878
+5232,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/artwork2.jpg,200,OK,19,431,35878
+5233,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/artwork2.jpg,200,OK,10,431,35878
+5234,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/banana_juice.jpg,200,OK,8,431,19833
+5235,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/banana_juice.jpg,200,OK,8,431,19833
+5236,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/banana_juice.jpg,200,OK,23,431,19833
+5237,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/banana_juice.jpg,200,OK,24,431,19833
+5238,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/banana_juice.jpg,200,OK,3,431,19833
+5239,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/banana_juice.jpg,200,OK,9,431,19833
+5240,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/banana_juice.jpg,200,OK,2,431,19833
+5241,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/banana_juice.jpg,200,OK,3,431,19833
+5242,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/banana_juice.jpg,200,OK,3,431,19833
+5243,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/banana_juice.jpg,200,OK,32,431,19833
+5244,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/banana_juice.jpg,200,OK,4,431,19833
+5245,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/banana_juice.jpg,200,OK,4,431,19833
+5246,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,129,431,19001
+5247,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public,200,OK,6,469,80117
+5249,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images,200,OK,55,469,80117
+5252,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,42,431,19001
+5251,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products,200,OK,136,469,80117
+5254,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,12,431,19001
+5255,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,5,431,19001
+5256,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,4,431,19001
+5257,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:16 EDT 2025,GET,http://localhost:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,17,431,19001
+5258,Tue Jul 15 07:30:16 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,35,431,19001
+5259,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,46,431,19001
+5260,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,15,431,19001
+5261,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,3,431,19001
+5262,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,3,431,19001
+5263,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,3,431,19001
+5264,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,4,431,15072
+5265,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,3,431,15072
+5266,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,5,431,15072
+5267,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,2,431,15072
+5268,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,15,431,15072
+5269,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,29,431,15072
+5270,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products,200,OK,7,469,80117
+5272,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,50,431,15072
+5273,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public,200,OK,12,469,80117
+5275,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,10,431,15072
+5276,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images,200,OK,29,469,80117
+5278,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,25,431,15072
+5279,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,7,431,15072
+5280,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,6,431,15072
+5281,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,9,431,15072
+5282,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:17 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fan_facemask.jpg,200,OK,104,431,26934
+5283,Tue Jul 15 07:30:17 EDT 2025,Tue Jul 15 07:30:18 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fan_facemask.jpg,200,OK,549,431,26934
+5284,Tue Jul 15 07:30:18 EDT 2025,Tue Jul 15 07:30:18 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fan_facemask.jpg,200,OK,185,431,26934
+5285,Tue Jul 15 07:30:18 EDT 2025,Tue Jul 15 07:30:18 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fan_facemask.jpg,200,OK,27,431,26934
+5286,Tue Jul 15 07:30:18 EDT 2025,Tue Jul 15 07:30:18 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fan_facemask.jpg,200,OK,24,431,26934
+5287,Tue Jul 15 07:30:18 EDT 2025,Tue Jul 15 07:30:18 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fan_facemask.jpg,200,OK,23,431,26934
+5288,Tue Jul 15 07:30:18 EDT 2025,Tue Jul 15 07:30:18 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fan_facemask.jpg,200,OK,8,431,26934
+5289,Tue Jul 15 07:30:18 EDT 2025,Tue Jul 15 07:30:18 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fan_facemask.jpg,200,OK,94,431,26934
+5290,Tue Jul 15 07:30:18 EDT 2025,Tue Jul 15 07:30:18 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fan_facemask.jpg,200,OK,92,431,26934
+5291,Tue Jul 15 07:30:18 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fan_facemask.jpg,200,OK,243,431,26934
+5292,Tue Jul 15 07:30:18 EDT 2025,Tue Jul 15 07:30:18 EDT 2025,GET,http://localhost:3000/assets/public/images,200,OK,62,469,80117
+5295,Tue Jul 15 07:30:18 EDT 2025,Tue Jul 15 07:30:18 EDT 2025,GET,http://localhost:3000/assets/public/images/products,200,OK,35,469,80117
+5294,Tue Jul 15 07:30:18 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fruit_press.jpg,200,OK,178,431,17080
+5297,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fruit_press.jpg,200,OK,49,431,17080
+5298,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fan_facemask.jpg,200,OK,90,431,26934
+5299,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fruit_press.jpg,200,OK,71,431,17080
+5300,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fan_facemask.jpg,200,OK,72,431,26934
+5301,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fruit_press.jpg,200,OK,27,431,17080
+5302,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fruit_press.jpg,200,OK,28,431,17080
+5303,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fruit_press.jpg,200,OK,13,431,17080
+5305,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/green_smoothie.jpg,200,OK,30,431,15910
+5304,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fruit_press.jpg,200,OK,32,431,17080
+5306,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fruit_press.jpg,200,OK,21,431,17080
+5307,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/green_smoothie.jpg,200,OK,21,431,15910
+5308,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fruit_press.jpg,200,OK,14,431,17080
+5309,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/green_smoothie.jpg,200,OK,33,431,15910
+5310,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fruit_press.jpg,200,OK,33,431,17080
+5311,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/green_smoothie.jpg,200,OK,12,431,15910
+5312,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fruit_press.jpg,200,OK,25,431,17080
+5313,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/green_smoothie.jpg,200,OK,54,431,15910
+5315,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/green_smoothie.jpg,200,OK,41,431,15910
+5314,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/fruit_press.jpg,200,OK,41,431,17080
+5316,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/green_smoothie.jpg,200,OK,32,431,15910
+5317,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/green_smoothie.jpg,200,OK,30,431,15910
+5318,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products/green_smoothie.jpg,200,OK,64,431,15910
+5319,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/lemon_juice.jpg,200,OK,272,431,17038
+5320,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:19 EDT 2025,GET,http://localhost:3000/assets/public/images/products,200,OK,24,469,80117
+5323,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/green_smoothie.jpg,200,OK,243,431,15910
+5324,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/lemon_juice.jpg,200,OK,55,431,17038
+5322,Tue Jul 15 07:30:19 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/melon_bike.jpeg,200,OK,244,431,21524
+5325,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/green_smoothie.jpg,200,OK,57,431,15910
+5326,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/lemon_juice.jpg,200,OK,44,431,17038
+5327,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/melon_bike.jpeg,200,OK,49,431,21524
+5328,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/melon_bike.jpeg,200,OK,35,431,21524
+5329,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/green_smoothie.jpg,200,OK,67,431,15910
+5330,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/lemon_juice.jpg,200,OK,64,431,17038
+5331,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/lemon_juice.jpg,200,OK,68,431,17038
+5332,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/melon_bike.jpeg,200,OK,86,431,21524
+5333,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/lemon_juice.jpg,200,OK,75,431,17038
+5334,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/melon_bike.jpeg,200,OK,73,431,21524
+5335,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/lemon_juice.jpg,200,OK,17,431,17038
+5336,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/lemon_juice.jpg,200,OK,27,431,17038
+5338,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/melon_bike.jpeg,200,OK,20,431,21524
+5337,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/permafrost.jpg,200,OK,4,432,93641
+5340,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/melon_bike.jpeg,200,OK,8,431,21524
+5339,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/lemon_juice.jpg,200,OK,9,431,17038
+5341,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/melon_bike.jpeg,200,OK,7,431,21524
+5342,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/lemon_juice.jpg,200,OK,15,431,17038
+5344,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/melon_bike.jpeg,200,OK,4,431,21524
+5343,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/permafrost.jpg,200,OK,12,432,93641
+5345,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/lemon_juice.jpg,200,OK,105,431,17038
+5346,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/melon_bike.jpeg,200,OK,107,431,21524
+5347,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/permafrost.jpg,200,OK,161,432,93641
+5348,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/melon_bike.jpeg,200,OK,88,431,21524
+5349,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/lemon_juice.jpg,200,OK,105,431,17038
+5350,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products,200,OK,91,469,80117
+5352,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/melon_bike.jpeg,200,OK,25,431,21524
+5353,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/permafrost.jpg,200,OK,60,432,93641
+5354,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/permafrost.jpg,200,OK,4,432,93641
+5355,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/permafrost.jpg,200,OK,25,432,93641
+5356,Tue Jul 15 07:30:20 EDT 2025,Tue Jul 15 07:30:20 EDT 2025,GET,http://localhost:3000/assets/public/images/products/permafrost.jpg,200,OK,21,432,93641
+5357,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,63,363,2045
+5358,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/assets/public/images/products/permafrost.jpg,200,OK,101,432,93641
+5359,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/polyfills.js,200,OK,89,481,34840
+5360,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/polyfills.js,200,OK,15,481,34840
+5361,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/assets/public/images/products/permafrost.jpg,200,OK,24,432,93641
+5362,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/main.js,200,OK,120,483,457995
+5363,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/assets/public/images/products/permafrost.jpg,200,OK,30,432,93641
+5364,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/polyfills.js,200,OK,34,481,34840
+5365,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/main.js,200,OK,27,483,457995
+5367,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/polyfills.js,200,OK,38,481,34840
+5366,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/assets/public/images/products/permafrost.jpg,200,OK,16,432,93641
+5368,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/polyfills.js,200,OK,59,481,34840
+5370,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/assets/public/images/products,200,OK,13,469,80117
+5369,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/assets/public/images/products/permafrost.jpg,200,OK,59,432,93641
+5372,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/polyfills.js,200,OK,15,481,34840
+5373,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/main.js,200,OK,93,483,457995
+5374,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/polyfills.js,200,OK,12,481,34840
+5376,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/main.js,200,OK,44,483,457995
+5375,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/polyfills.js,200,OK,35,481,34840
+5377,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,45,363,2057
+5378,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,306,363,2045
+5379,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,98,363,2045
+5380,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:21 EDT 2025,GET,http://localhost:3000/polyfills.js,200,OK,412,481,34840
+5381,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:22 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,179,363,2045
+5382,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:22 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,162,363,2057
+5383,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:23 EDT 2025,GET,http://localhost:3000/polyfills.js,200,OK,1243,481,34840
+5384,Tue Jul 15 07:30:22 EDT 2025,Tue Jul 15 07:30:23 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,1077,363,2045
+5385,Tue Jul 15 07:30:22 EDT 2025,Tue Jul 15 07:30:23 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,1042,363,2057
+5386,Tue Jul 15 07:30:21 EDT 2025,Tue Jul 15 07:30:23 EDT 2025,GET,http://localhost:3000/main.js,200,OK,1727,483,457995
+5387,Tue Jul 15 07:30:23 EDT 2025,Tue Jul 15 07:30:23 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,162,363,2057
+5388,Tue Jul 15 07:30:23 EDT 2025,Tue Jul 15 07:30:23 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,157,363,2045
+5389,Tue Jul 15 07:30:23 EDT 2025,Tue Jul 15 07:30:23 EDT 2025,GET,http://localhost:3000/polyfills.js,200,OK,251,481,34840
+5390,Tue Jul 15 07:30:23 EDT 2025,Tue Jul 15 07:30:23 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,95,363,2057
+5391,Tue Jul 15 07:30:23 EDT 2025,Tue Jul 15 07:30:23 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,110,363,2045
+5392,Tue Jul 15 07:30:23 EDT 2025,Tue Jul 15 07:30:23 EDT 2025,GET,http://localhost:3000/polyfills.js,200,OK,138,481,34840
+5393,Tue Jul 15 07:30:23 EDT 2025,Tue Jul 15 07:30:23 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,110,363,2057
+5394,Tue Jul 15 07:30:23 EDT 2025,Tue Jul 15 07:30:23 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,134,363,2045
+5395,Tue Jul 15 07:30:23 EDT 2025,Tue Jul 15 07:30:23 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,131,363,2057
+5397,Tue Jul 15 07:30:23 EDT 2025,Tue Jul 15 07:30:23 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,166,363,2045
+5396,Tue Jul 15 07:30:23 EDT 2025,Tue Jul 15 07:30:23 EDT 2025,GET,http://localhost:3000/main.js,200,OK,416,483,457995
+5398,Tue Jul 15 07:30:23 EDT 2025,Tue Jul 15 07:30:23 EDT 2025,GET,http://localhost:3000/rest/admin/application-configuration,200,OK,219,389,21730
+5399,Tue Jul 15 07:30:23 EDT 2025,Tue Jul 15 07:30:23 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,195,363,2057
+5400,Tue Jul 15 07:30:23 EDT 2025,Tue Jul 15 07:30:24 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,195,363,2045
+5401,Tue Jul 15 07:30:23 EDT 2025,Tue Jul 15 07:30:24 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,179,363,2057
+5402,Tue Jul 15 07:30:23 EDT 2025,Tue Jul 15 07:30:24 EDT 2025,GET,http://localhost:3000/rest/admin/application-configuration,200,OK,208,389,21730
+5403,Tue Jul 15 07:30:24 EDT 2025,Tue Jul 15 07:30:24 EDT 2025,GET,http://localhost:3000/rest/admin/application-configuration,200,OK,27,389,21730
+5404,Tue Jul 15 07:30:24 EDT 2025,Tue Jul 15 07:30:24 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,204,363,2045
+5405,Tue Jul 15 07:30:24 EDT 2025,Tue Jul 15 07:30:24 EDT 2025,GET,http://localhost:3000/rest/admin/application-configuration,200,OK,175,389,21730
+5406,Tue Jul 15 07:30:24 EDT 2025,Tue Jul 15 07:30:24 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,256,363,2057
+5407,Tue Jul 15 07:30:24 EDT 2025,Tue Jul 15 07:30:24 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,157,363,2045
+5408,Tue Jul 15 07:30:24 EDT 2025,Tue Jul 15 07:30:24 EDT 2025,GET,http://localhost:3000/rest/admin/application-configuration,200,OK,105,389,21730
+5409,Tue Jul 15 07:30:24 EDT 2025,Tue Jul 15 07:30:24 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,149,363,2057
+5410,Tue Jul 15 07:30:23 EDT 2025,Tue Jul 15 07:30:24 EDT 2025,GET,http://localhost:3000/main.js,200,OK,667,483,457995
+5411,Tue Jul 15 07:30:24 EDT 2025,Tue Jul 15 07:30:24 EDT 2025,GET,http://localhost:3000/rest/admin/application-configuration,200,OK,134,389,21730
+5412,Tue Jul 15 07:30:24 EDT 2025,Tue Jul 15 07:30:24 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,200,363,2045
+5413,Tue Jul 15 07:30:24 EDT 2025,Tue Jul 15 07:30:24 EDT 2025,GET,http://localhost:3000/rest/admin/application-configuration,200,OK,62,389,21730
+5414,Tue Jul 15 07:30:24 EDT 2025,Tue Jul 15 07:30:24 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,140,363,2057
+5415,Tue Jul 15 07:30:24 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/rest/admin/application-configuration,200,OK,393,389,21730
+5416,Tue Jul 15 07:30:24 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,399,363,2057
+5417,Tue Jul 15 07:30:24 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,409,363,2083
+5418,Tue Jul 15 07:30:25 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/rest/admin/application-configuration,200,OK,107,389,21730
+5419,Tue Jul 15 07:30:24 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/rest/admin/application-version,200,OK,460,384,20
+5420,Tue Jul 15 07:30:25 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/rest/admin/application-configuration,200,OK,48,389,21730
+5421,Tue Jul 15 07:30:25 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/rest/admin/application-version,200,OK,98,384,20
+5422,Tue Jul 15 07:30:25 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,234,363,2083
+5423,Tue Jul 15 07:30:24 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/main.js,200,OK,809,483,457995
+5424,Tue Jul 15 07:30:25 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/rest/admin/application-configuration,200,OK,192,389,21730
+5425,Tue Jul 15 07:30:25 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/rest/admin/application-version,200,OK,153,384,20
+5426,Tue Jul 15 07:30:25 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,108,363,2083
+5427,Tue Jul 15 07:30:25 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/rest/admin/application-configuration,200,OK,113,389,21730
+5428,Tue Jul 15 07:30:25 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/rest/admin/application-version,200,OK,114,384,20
+5429,Tue Jul 15 07:30:25 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,116,363,2083
+5430,Tue Jul 15 07:30:25 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/rest/admin/application-version,200,OK,61,384,20
+5431,Tue Jul 15 07:30:25 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,63,363,2083
+5432,Tue Jul 15 07:30:25 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/rest/admin/application-version,200,OK,151,384,20
+5433,Tue Jul 15 07:30:25 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,166,363,2083
+5434,Tue Jul 15 07:30:25 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/rest/admin/application-version,200,OK,173,384,20
+5435,Tue Jul 15 07:30:25 EDT 2025,Tue Jul 15 07:30:25 EDT 2025,GET,http://localhost:3000/main.js,200,OK,558,483,457995
+5436,Tue Jul 15 07:30:25 EDT 2025,Tue Jul 15 07:30:26 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,180,363,2083
+5437,Tue Jul 15 07:30:25 EDT 2025,Tue Jul 15 07:30:26 EDT 2025,GET,http://localhost:3000/rest/admin/application-version,200,OK,384,384,20
+5438,Tue Jul 15 07:30:26 EDT 2025,Tue Jul 15 07:30:26 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,299,363,2083
+5439,Tue Jul 15 07:30:26 EDT 2025,Tue Jul 15 07:30:26 EDT 2025,GET,http://localhost:3000/rest/admin/application-version,200,OK,80,384,20
+5440,Tue Jul 15 07:30:26 EDT 2025,Tue Jul 15 07:30:26 EDT 2025,GET,http://localhost:3000/rest/admin/application-version,200,OK,25,384,20
+5441,Tue Jul 15 07:30:26 EDT 2025,Tue Jul 15 07:30:26 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,94,363,2083
+5442,Tue Jul 15 07:30:26 EDT 2025,Tue Jul 15 07:30:26 EDT 2025,GET,http://localhost:3000/rest/admin/application-version,200,OK,96,384,20
+5443,Tue Jul 15 07:30:26 EDT 2025,Tue Jul 15 07:30:26 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,126,363,2083
+5444,Tue Jul 15 07:30:26 EDT 2025,Tue Jul 15 07:30:26 EDT 2025,GET,http://localhost:3000/rest/admin/application-version,200,OK,80,384,20
+5445,Tue Jul 15 07:30:26 EDT 2025,Tue Jul 15 07:30:26 EDT 2025,GET,http://localhost:3000/main.js,200,OK,557,483,457995
+5446,Tue Jul 15 07:30:26 EDT 2025,Tue Jul 15 07:30:26 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,92,363,2083
+5447,Tue Jul 15 07:30:26 EDT 2025,Tue Jul 15 07:30:26 EDT 2025,GET,http://localhost:3000/rest/continue-code,200,OK,30,384,79
+5449,Tue Jul 15 07:30:26 EDT 2025,Tue Jul 15 07:30:26 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,99,363,2083
+5450,Tue Jul 15 07:30:26 EDT 2025,Tue Jul 15 07:30:26 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,112,363,2083
+5451,Tue Jul 15 07:30:26 EDT 2025,Tue Jul 15 07:30:27 EDT 2025,GET,http://localhost:3000/rest/continue-code,200,OK,175,384,79
+5453,Tue Jul 15 07:30:26 EDT 2025,Tue Jul 15 07:30:27 EDT 2025,GET,http://localhost:3000/main.js,200,OK,419,483,457995
+5454,Tue Jul 15 07:30:27 EDT 2025,Tue Jul 15 07:30:27 EDT 2025,GET,http://localhost:3000/main.js,200,OK,10,483,457995
+5455,Tue Jul 15 07:30:27 EDT 2025,Tue Jul 15 07:30:27 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,8,363,2063
+5456,Tue Jul 15 07:30:27 EDT 2025,Tue Jul 15 07:30:27 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,121,363,2063
+5457,Tue Jul 15 07:30:27 EDT 2025,Tue Jul 15 07:30:27 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,63,363,2063
+5458,Tue Jul 15 07:30:27 EDT 2025,Tue Jul 15 07:30:27 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,49,363,2063
+5459,Tue Jul 15 07:30:27 EDT 2025,Tue Jul 15 07:30:27 EDT 2025,GET,http://localhost:3000/rest/languages,200,OK,334,388,4719
+5460,Tue Jul 15 07:30:27 EDT 2025,Tue Jul 15 07:30:27 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,120,363,2063
+5461,Tue Jul 15 07:30:27 EDT 2025,Tue Jul 15 07:30:27 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,55,363,2063
+5462,Tue Jul 15 07:30:27 EDT 2025,Tue Jul 15 07:30:27 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,44,363,2063
+5463,Tue Jul 15 07:30:27 EDT 2025,Tue Jul 15 07:30:27 EDT 2025,GET,http://localhost:3000/rest/continue-code,200,OK,53,384,79
+5465,Tue Jul 15 07:30:27 EDT 2025,Tue Jul 15 07:30:27 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,71,363,2063
+5466,Tue Jul 15 07:30:27 EDT 2025,Tue Jul 15 07:30:27 EDT 2025,GET,http://localhost:3000/rest/languages,200,OK,512,388,4719
+5467,Tue Jul 15 07:30:27 EDT 2025,Tue Jul 15 07:30:27 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,321,363,2063
+5468,Tue Jul 15 07:30:27 EDT 2025,Tue Jul 15 07:30:27 EDT 2025,GET,http://localhost:3000/rest/continue-code,200,OK,256,384,79
+5470,Tue Jul 15 07:30:27 EDT 2025,Tue Jul 15 07:30:28 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,59,363,2063
+5471,Tue Jul 15 07:30:28 EDT 2025,Tue Jul 15 07:30:28 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,173,363,2063
+5472,Tue Jul 15 07:30:28 EDT 2025,Tue Jul 15 07:30:28 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,13,363,2063
+5473,Tue Jul 15 07:30:28 EDT 2025,Tue Jul 15 07:30:28 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,23,363,2063
+5474,Tue Jul 15 07:30:27 EDT 2025,Tue Jul 15 07:30:28 EDT 2025,GET,http://localhost:3000/rest/languages,200,OK,555,388,4719
+5475,Tue Jul 15 07:30:28 EDT 2025,Tue Jul 15 07:30:28 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,260,363,2055
+5476,Tue Jul 15 07:30:28 EDT 2025,Tue Jul 15 07:30:28 EDT 2025,GET,http://localhost:3000/rest/continue-code,200,OK,213,384,79
+5478,Tue Jul 15 07:30:28 EDT 2025,Tue Jul 15 07:30:28 EDT 2025,GET,http://localhost:3000/rest/languages,200,OK,225,388,4719
+5479,Tue Jul 15 07:30:28 EDT 2025,Tue Jul 15 07:30:28 EDT 2025,GET,http://localhost:3000/rest/languages,200,OK,120,388,4719
+5480,Tue Jul 15 07:30:28 EDT 2025,Tue Jul 15 07:30:28 EDT 2025,GET,http://localhost:3000/rest/languages,200,OK,97,388,4719
+5481,Tue Jul 15 07:30:28 EDT 2025,Tue Jul 15 07:30:29 EDT 2025,GET,http://localhost:3000/rest/languages,200,OK,122,388,4719
+5482,Tue Jul 15 07:30:28 EDT 2025,Tue Jul 15 07:30:29 EDT 2025,GET,http://localhost:3000/rest/continue-code,200,OK,82,384,79
+5484,Tue Jul 15 07:30:29 EDT 2025,Tue Jul 15 07:30:29 EDT 2025,GET,http://localhost:3000/rest/languages,200,OK,165,388,4719
+5485,Tue Jul 15 07:30:29 EDT 2025,Tue Jul 15 07:30:29 EDT 2025,GET,http://localhost:3000/rest/languages,200,OK,130,388,4719
+5486,Tue Jul 15 07:30:29 EDT 2025,Tue Jul 15 07:30:29 EDT 2025,GET,http://localhost:3000/rest/continue-code,200,OK,34,384,79
+5488,Tue Jul 15 07:30:29 EDT 2025,Tue Jul 15 07:30:29 EDT 2025,GET,http://localhost:3000/rest/languages,200,OK,149,388,4719
+5489,Tue Jul 15 07:30:29 EDT 2025,Tue Jul 15 07:30:29 EDT 2025,GET,http://localhost:3000/rest/continue-code,200,OK,59,384,79
+5491,Tue Jul 15 07:30:29 EDT 2025,Tue Jul 15 07:30:29 EDT 2025,GET,http://localhost:3000/rest/languages,200,OK,147,388,4719
+5492,Tue Jul 15 07:30:29 EDT 2025,Tue Jul 15 07:30:29 EDT 2025,GET,http://localhost:3000/rest/languages,200,OK,152,388,4719
+5493,Tue Jul 15 07:30:29 EDT 2025,Tue Jul 15 07:30:29 EDT 2025,GET,http://localhost:3000/rest/continue-code,200,OK,16,384,79
+5495,Tue Jul 15 07:30:29 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,23,363,2055
+5496,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,8,363,2055
+5497,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,66,363,2055
+5498,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,33,363,2055
+5499,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,41,363,2055
+5500,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,27,363,2055
+5501,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,46,363,2055
+5502,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,23,363,2055
+5503,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,44,363,2055
+5504,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,64,363,2055
+5505,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/continue-code,200,OK,70,384,79
+5507,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,73,363,2055
+5508,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,45,363,2055
+5509,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user/whoami,200,OK,15,385,125
+5510,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user/whoami,200,OK,47,385,125
+5511,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user/whoami,200,OK,14,385,125
+5512,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user/whoami,200,OK,31,385,125
+5513,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user/whoami,200,OK,19,385,125
+5514,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user/whoami,200,OK,13,385,125
+5515,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user/whoami,200,OK,48,385,125
+5516,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user/whoami,200,OK,15,385,125
+5517,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user/whoami,200,OK,24,385,125
+5518,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:30 EDT 2025,GET,http://localhost:3000/rest/user/whoami,200,OK,47,385,125
+5519,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:31 EDT 2025,GET,http://localhost:3000/rest/user/whoami,200,OK,107,385,125
+5520,Tue Jul 15 07:30:30 EDT 2025,Tue Jul 15 07:30:31 EDT 2025,GET,http://localhost:3000/rest/continue-code,200,OK,153,384,79
+5522,Tue Jul 15 07:30:31 EDT 2025,Tue Jul 15 07:30:31 EDT 2025,GET,http://localhost:3000/rest/user/whoami,200,OK,134,385,125
+5523,Tue Jul 15 07:30:31 EDT 2025,Tue Jul 15 07:30:31 EDT 2025,GET,http://localhost:3000/runtime.js,200,OK,33,479,3315
+5524,Tue Jul 15 07:30:31 EDT 2025,Tue Jul 15 07:30:31 EDT 2025,GET,http://localhost:3000/rest/continue-code,200,OK,25,384,79
+5526,Tue Jul 15 07:30:31 EDT 2025,Tue Jul 15 07:30:31 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,63,469,80117
+5527,Tue Jul 15 07:30:31 EDT 2025,Tue Jul 15 07:30:31 EDT 2025,GET,http://localhost:3000/runtime.js,200,OK,61,479,3315
+5528,Tue Jul 15 07:30:31 EDT 2025,Tue Jul 15 07:30:31 EDT 2025,GET,http://localhost:3000/runtime.js,200,OK,7,479,3315
+5529,Tue Jul 15 07:30:31 EDT 2025,Tue Jul 15 07:30:31 EDT 2025,GET,http://localhost:3000/runtime.js,200,OK,34,479,3315
+5530,Tue Jul 15 07:30:31 EDT 2025,Tue Jul 15 07:30:31 EDT 2025,GET,http://localhost:3000/runtime.js,200,OK,39,479,3315
+5531,Tue Jul 15 07:30:31 EDT 2025,Tue Jul 15 07:30:31 EDT 2025,GET,http://localhost:3000/runtime.js,200,OK,29,479,3315
+5532,Tue Jul 15 07:30:31 EDT 2025,Tue Jul 15 07:30:31 EDT 2025,GET,http://localhost:3000/runtime.js,200,OK,17,479,3315
+5533,Tue Jul 15 07:30:31 EDT 2025,Tue Jul 15 07:30:31 EDT 2025,GET,http://localhost:3000/runtime.js,200,OK,6,479,3315
+5534,Tue Jul 15 07:30:31 EDT 2025,Tue Jul 15 07:30:31 EDT 2025,GET,http://localhost:3000/runtime.js,200,OK,19,479,3315
+5535,Tue Jul 15 07:30:31 EDT 2025,Tue Jul 15 07:30:31 EDT 2025,GET,http://localhost:3000/runtime.js,200,OK,36,479,3315
+5536,Tue Jul 15 07:30:31 EDT 2025,Tue Jul 15 07:30:31 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,33,469,80117
+5537,Tue Jul 15 07:30:31 EDT 2025,Tue Jul 15 07:30:31 EDT 2025,GET,http://localhost:3000/runtime.js,200,OK,5,479,3315
+5538,Tue Jul 15 07:30:31 EDT 2025,Tue Jul 15 07:30:31 EDT 2025,GET,http://localhost:3000/runtime.js,200,OK,19,479,3315
+5539,Tue Jul 15 07:30:31 EDT 2025,Tue Jul 15 07:30:31 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,32,469,80117
+5540,Tue Jul 15 07:30:31 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,101,469,80117
+5541,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,46,469,80117
+5542,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,37,469,80117
+5543,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,36,230,34
+5545,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,31,469,80117
+5546,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,24,469,80117
+5547,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,24,469,80117
+5548,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,60,469,80117
+5549,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,43,469,80117
+5550,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,46,469,80117
+5551,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,27,469,80117
+5552,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,1,129,0
+5553,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,2,129,0
+5554,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,3,129,0
+5555,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,3,129,0
+5556,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,2,129,0
+5557,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,17,129,0
+5558,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,5,129,0
+5559,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,27,129,0
+5560,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,13,129,0
+5561,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,3,129,0
+5562,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,24,129,0
+5563,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=websocket&sid=zBy7XtjycsnGNJ-4AAAC,101,Switching Protocols,9,129,0
+5564,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,2,230,34
+5566,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr8wT,200,OK,2,230,96
+5568,Tue Jul 15 07:30:32 EDT 2025,Tue Jul 15 07:30:32 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,22,230,34
+5570,Tue Jul 15 07:30:25 EDT 2025,Tue Jul 15 07:30:33 EDT 2025,GET,http://localhost:3000/rest/basket/1,200,OK,7370,387,1310
+5571,Tue Jul 15 07:30:33 EDT 2025,Tue Jul 15 07:30:33 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr8wT,200,OK,8,230,96
+5573,Tue Jul 15 07:30:33 EDT 2025,Tue Jul 15 07:30:33 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,32,230,34
+5575,Tue Jul 15 07:30:33 EDT 2025,Tue Jul 15 07:30:33 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr8wT,200,OK,25,230,96
+5577,Tue Jul 15 07:30:33 EDT 2025,Tue Jul 15 07:30:33 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,11,230,34
+5579,Tue Jul 15 07:30:28 EDT 2025,Tue Jul 15 07:30:33 EDT 2025,GET,http://localhost:3000/rest/products/search?q=,200,OK,5497,389,13659
+5580,Tue Jul 15 07:30:34 EDT 2025,Tue Jul 15 07:30:34 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr8wT,200,OK,9,251,96
+5582,Tue Jul 15 07:30:34 EDT 2025,Tue Jul 15 07:30:34 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,8,230,34
+5584,Tue Jul 15 07:30:34 EDT 2025,Tue Jul 15 07:30:34 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr8wT,200,OK,6,230,96
+5586,Tue Jul 15 07:30:34 EDT 2025,Tue Jul 15 07:30:34 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,1,230,34
+5588,Tue Jul 15 07:30:34 EDT 2025,Tue Jul 15 07:30:34 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,8,230,34
+5590,Tue Jul 15 07:30:34 EDT 2025,Tue Jul 15 07:30:34 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr8wT,200,OK,14,230,96
+5592,Tue Jul 15 07:30:35 EDT 2025,Tue Jul 15 07:30:35 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,7,230,34
+5594,Tue Jul 15 07:30:35 EDT 2025,Tue Jul 15 07:30:35 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr8wT,200,OK,5,230,96
+5596,Tue Jul 15 07:30:35 EDT 2025,Tue Jul 15 07:30:35 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,7,230,34
+5598,Tue Jul 15 07:30:35 EDT 2025,Tue Jul 15 07:30:35 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr8wT,200,OK,4,230,96
+5600,Tue Jul 15 07:30:33 EDT 2025,Tue Jul 15 07:30:35 EDT 2025,GET,http://localhost:3000/rest/basket/1,200,OK,2784,387,1310
+5601,Tue Jul 15 07:30:35 EDT 2025,Tue Jul 15 07:30:35 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,26,230,34
+5603,Tue Jul 15 07:30:35 EDT 2025,Tue Jul 15 07:30:35 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr8wT,200,OK,24,230,96
+5605,Tue Jul 15 07:30:36 EDT 2025,Tue Jul 15 07:30:36 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDrAD3&sid=zBy7XtjycsnGNJ-4AAAC,400,Bad Request,2,230,34
+5607,Tue Jul 15 07:30:36 EDT 2025,Tue Jul 15 07:30:36 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr8wT,200,OK,13,230,96
+5609,Tue Jul 15 07:30:33 EDT 2025,Tue Jul 15 07:30:36 EDT 2025,GET,http://localhost:3000/rest/products/search?q=,200,OK,2489,389,13659
+5610,Tue Jul 15 07:30:36 EDT 2025,Tue Jul 15 07:30:36 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr8wT,200,OK,3,230,96
+5612,Tue Jul 15 07:30:35 EDT 2025,Tue Jul 15 07:30:36 EDT 2025,GET,http://localhost:3000/rest/basket/1,200,OK,962,387,1310
+5613,Tue Jul 15 07:30:36 EDT 2025,Tue Jul 15 07:30:36 EDT 2025,GET,http://localhost:3000/rest/products/search?q=,200,OK,623,389,13659
+5614,Tue Jul 15 07:30:36 EDT 2025,Tue Jul 15 07:30:36 EDT 2025,GET,http://localhost:3000/rest/products/search?q=,200,OK,44,389,13659
+5615,Tue Jul 15 07:30:36 EDT 2025,Tue Jul 15 07:30:37 EDT 2025,GET,http://localhost:3000/styles.css,200,OK,67,469,685248
+5616,Tue Jul 15 07:30:36 EDT 2025,Tue Jul 15 07:30:37 EDT 2025,GET,http://localhost:3000/rest/basket/1,200,OK,269,387,1310
+5617,Tue Jul 15 07:30:36 EDT 2025,Tue Jul 15 07:30:37 EDT 2025,GET,http://localhost:3000/rest/products/search?q=,200,OK,157,389,13659
+5618,Tue Jul 15 07:30:37 EDT 2025,Tue Jul 15 07:30:37 EDT 2025,GET,http://localhost:3000/styles.css,200,OK,85,469,685248
+5619,Tue Jul 15 07:30:37 EDT 2025,Tue Jul 15 07:30:37 EDT 2025,GET,http://localhost:3000/styles.css,200,OK,11,469,685248
+5621,Tue Jul 15 07:30:37 EDT 2025,Tue Jul 15 07:30:37 EDT 2025,GET,http://localhost:3000/rest/basket/1,200,OK,235,387,1310
+5622,Tue Jul 15 07:30:37 EDT 2025,Tue Jul 15 07:30:37 EDT 2025,GET,http://localhost:3000/rest/products/search?q=,200,OK,222,389,13659
+5620,Tue Jul 15 07:30:37 EDT 2025,Tue Jul 15 07:30:37 EDT 2025,GET,http://localhost:3000/socket.io/?EIO=4&transport=polling&t=PWDr8wT,200,OK,32,230,96
+5624,Tue Jul 15 07:30:37 EDT 2025,Tue Jul 15 07:30:37 EDT 2025,GET,http://localhost:3000/styles.css,200,OK,31,469,685248
+5625,Tue Jul 15 07:30:37 EDT 2025,Tue Jul 15 07:30:37 EDT 2025,GET,http://localhost:3000/styles.css,200,OK,143,469,685248
+5627,Tue Jul 15 07:30:37 EDT 2025,Tue Jul 15 07:30:37 EDT 2025,GET,http://localhost:3000/rest/products/search?q=,200,OK,237,389,13659
+5626,Tue Jul 15 07:30:37 EDT 2025,Tue Jul 15 07:30:37 EDT 2025,GET,http://localhost:3000/rest/basket/1,200,OK,289,387,1310
+5628,Tue Jul 15 07:30:38 EDT 2025,Tue Jul 15 07:30:38 EDT 2025,GET,http://localhost:3000/styles.css,200,OK,103,469,685248
+5629,Tue Jul 15 07:30:38 EDT 2025,Tue Jul 15 07:30:38 EDT 2025,GET,http://localhost:3000/styles.css,200,OK,174,469,685248
+5630,Tue Jul 15 07:30:38 EDT 2025,Tue Jul 15 07:30:38 EDT 2025,GET,http://localhost:3000/vendor.js,200,OK,225,485,1622583
+5631,Tue Jul 15 07:30:38 EDT 2025,Tue Jul 15 07:30:38 EDT 2025,GET,http://localhost:3000/styles.css,200,OK,59,469,685248
+5632,Tue Jul 15 07:30:38 EDT 2025,Tue Jul 15 07:30:38 EDT 2025,GET,http://localhost:3000/vendor.js,200,OK,95,485,1622583
+5634,Tue Jul 15 07:30:38 EDT 2025,Tue Jul 15 07:30:38 EDT 2025,GET,http://localhost:3000/rest/products/search?q=,200,OK,613,389,13659
+5633,Tue Jul 15 07:30:38 EDT 2025,Tue Jul 15 07:30:38 EDT 2025,GET,http://localhost:3000/styles.css,200,OK,26,469,685248
+5635,Tue Jul 15 07:30:38 EDT 2025,Tue Jul 15 07:30:39 EDT 2025,GET,http://localhost:3000/rest/basket/1,200,OK,891,387,1310
+5636,Tue Jul 15 07:30:38 EDT 2025,Tue Jul 15 07:30:39 EDT 2025,GET,http://localhost:3000/styles.css,200,OK,330,469,685248
+5637,Tue Jul 15 07:30:38 EDT 2025,Tue Jul 15 07:30:39 EDT 2025,GET,http://localhost:3000/rest/products/search?q=,200,OK,359,389,13659
+5638,Tue Jul 15 07:30:39 EDT 2025,Tue Jul 15 07:30:39 EDT 2025,GET,http://localhost:3000/styles.css,200,OK,92,469,685248
+5640,Tue Jul 15 07:30:39 EDT 2025,Tue Jul 15 07:30:39 EDT 2025,GET,http://localhost:3000/styles.css,200,OK,61,469,685248
+5639,Tue Jul 15 07:30:38 EDT 2025,Tue Jul 15 07:30:39 EDT 2025,GET,http://localhost:3000/vendor.js,200,OK,461,485,1622583
+5641,Tue Jul 15 07:30:39 EDT 2025,Tue Jul 15 07:30:39 EDT 2025,GET,http://localhost:3000/vendor.js,200,OK,25,485,1622583
+5642,Tue Jul 15 07:30:39 EDT 2025,Tue Jul 15 07:30:39 EDT 2025,GET,http://localhost:3000/vendor.js,200,OK,125,485,1622583
+5643,Tue Jul 15 07:30:39 EDT 2025,Tue Jul 15 07:30:39 EDT 2025,GET,http://localhost:3000/vendor.js,200,OK,39,485,1622583
+5644,Tue Jul 15 07:30:39 EDT 2025,Tue Jul 15 07:30:39 EDT 2025,GET,http://localhost:3000/rest/products/search?q=,200,OK,796,389,13659
+5645,Tue Jul 15 07:30:39 EDT 2025,Tue Jul 15 07:30:39 EDT 2025,GET,http://localhost:3000/vendor.js,200,OK,69,485,1622583
+5646,Tue Jul 15 07:30:40 EDT 2025,Tue Jul 15 07:30:40 EDT 2025,GET,http://localhost:3000/vendor.js,200,OK,62,485,1622583
+5647,Tue Jul 15 07:30:39 EDT 2025,Tue Jul 15 07:30:40 EDT 2025,GET,http://localhost:3000/rest/products/search?q=,200,OK,161,389,13659
+5648,Tue Jul 15 07:30:39 EDT 2025,Tue Jul 15 07:30:40 EDT 2025,GET,http://localhost:3000/rest/basket/1,200,OK,1129,387,1310
+5650,Tue Jul 15 07:30:40 EDT 2025,Tue Jul 15 07:30:40 EDT 2025,GET,http://localhost:3000/rest/products/search?q=,200,OK,426,389,13659
+5649,Tue Jul 15 07:30:40 EDT 2025,Tue Jul 15 07:30:40 EDT 2025,GET,http://localhost:3000/vendor.js,200,OK,392,485,1622583
+5651,Tue Jul 15 07:30:40 EDT 2025,Tue Jul 15 07:30:40 EDT 2025,GET,http://localhost:3000/vendor.js,200,OK,203,485,1622583
+5652,Tue Jul 15 07:30:41 EDT 2025,Tue Jul 15 07:30:41 EDT 2025,GET,http://localhost:3000/vendor.js,200,OK,156,485,1622583
+5653,Tue Jul 15 07:30:40 EDT 2025,Tue Jul 15 07:30:41 EDT 2025,GET,http://localhost:3000/rest/basket/1,200,OK,1111,387,1310
+5654,Tue Jul 15 07:30:41 EDT 2025,Tue Jul 15 07:30:41 EDT 2025,GET,http://localhost:3000/vendor.js,200,OK,290,485,1622583
+5655,Tue Jul 15 07:30:41 EDT 2025,Tue Jul 15 07:30:42 EDT 2025,GET,http://localhost:3000/rest/basket/1,200,OK,815,387,1310
+5656,Tue Jul 15 07:30:42 EDT 2025,Tue Jul 15 07:30:43 EDT 2025,GET,http://localhost:3000/rest/basket/1,200,OK,488,387,1310
+5657,Tue Jul 15 07:30:43 EDT 2025,Tue Jul 15 07:30:43 EDT 2025,GET,http://localhost:3000/rest/basket/1,200,OK,136,387,1310
+5658,Tue Jul 15 07:30:43 EDT 2025,Tue Jul 15 07:30:43 EDT 2025,GET,http://localhost:3000,200,OK,57,469,80117
+5659,Tue Jul 15 07:30:43 EDT 2025,Tue Jul 15 07:30:44 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,63,363,2043
+5660,Tue Jul 15 07:30:44 EDT 2025,Tue Jul 15 07:30:44 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,569,390,85835
+5661,Tue Jul 15 07:30:44 EDT 2025,Tue Jul 15 07:30:44 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,66,388,6258
+5662,Tue Jul 15 07:30:44 EDT 2025,Tue Jul 15 07:30:44 EDT 2025,GET,http://localhost:3000/assets,301,Moved Permanently,31,416,156
+5663,Tue Jul 15 07:30:44 EDT 2025,Tue Jul 15 07:30:44 EDT 2025,GET,http://localhost:3000/assets/i18n,301,Moved Permanently,4,421,161
+5664,Tue Jul 15 07:30:44 EDT 2025,Tue Jul 15 07:30:44 EDT 2025,GET,http://localhost:3000/assets/public,301,Moved Permanently,11,423,163
+5665,Tue Jul 15 07:30:44 EDT 2025,Tue Jul 15 07:30:44 EDT 2025,GET,http://localhost:3000/assets/public/images,301,Moved Permanently,3,430,170
+5666,Tue Jul 15 07:30:44 EDT 2025,Tue Jul 15 07:30:44 EDT 2025,GET,http://localhost:3000/assets/public/images/products,301,Moved Permanently,6,439,179
+5667,Tue Jul 15 07:30:45 EDT 2025,Tue Jul 15 07:30:45 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,22,363,2045
+5668,Tue Jul 15 07:30:45 EDT 2025,Tue Jul 15 07:30:45 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,52,363,2057
+5669,Tue Jul 15 07:30:45 EDT 2025,Tue Jul 15 07:30:45 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,148,363,2083
+5670,Tue Jul 15 07:30:45 EDT 2025,Tue Jul 15 07:30:45 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,138,363,2063
+5671,Tue Jul 15 07:30:46 EDT 2025,Tue Jul 15 07:30:46 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,12,363,2055
+5672,Tue Jul 15 07:30:46 EDT 2025,Tue Jul 15 07:30:46 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,136,469,80117
+5673,Tue Jul 15 07:30:46 EDT 2025,Tue Jul 15 07:30:46 EDT 2025,GET,http://localhost:3000,200,OK,31,469,80117
+5674,Tue Jul 15 07:30:46 EDT 2025,Tue Jul 15 07:30:46 EDT 2025,GET,http://localhost:3000/api,500,Internal Server Error,16,363,2043
+5675,Tue Jul 15 07:30:46 EDT 2025,Tue Jul 15 07:30:48 EDT 2025,GET,http://localhost:3000/api/Challenges,200,OK,1788,390,85835
+5676,Tue Jul 15 07:30:48 EDT 2025,Tue Jul 15 07:30:48 EDT 2025,GET,http://localhost:3000/api/Quantitys,200,OK,315,388,6258
+5677,Tue Jul 15 07:30:48 EDT 2025,Tue Jul 15 07:30:48 EDT 2025,GET,http://localhost:3000/assets,301,Moved Permanently,3,416,156
+5678,Tue Jul 15 07:30:48 EDT 2025,Tue Jul 15 07:30:48 EDT 2025,GET,http://localhost:3000/assets/i18n,301,Moved Permanently,3,421,161
+5679,Tue Jul 15 07:30:48 EDT 2025,Tue Jul 15 07:30:48 EDT 2025,GET,http://localhost:3000/assets/public,301,Moved Permanently,3,423,163
+5680,Tue Jul 15 07:30:48 EDT 2025,Tue Jul 15 07:30:48 EDT 2025,GET,http://localhost:3000/assets/public/images,301,Moved Permanently,12,430,170
+5681,Tue Jul 15 07:30:48 EDT 2025,Tue Jul 15 07:30:49 EDT 2025,GET,http://localhost:3000/assets/public/images/products,301,Moved Permanently,12,439,179
+5682,Tue Jul 15 07:30:49 EDT 2025,Tue Jul 15 07:30:49 EDT 2025,GET,http://localhost:3000/rest,500,Internal Server Error,12,363,2045
+5683,Tue Jul 15 07:30:49 EDT 2025,Tue Jul 15 07:30:49 EDT 2025,GET,http://localhost:3000/rest/admin,500,Internal Server Error,17,363,2057
+5684,Tue Jul 15 07:30:49 EDT 2025,Tue Jul 15 07:30:49 EDT 2025,GET,http://localhost:3000/rest/basket,500,Internal Server Error,14,363,2083
+5685,Tue Jul 15 07:30:49 EDT 2025,Tue Jul 15 07:30:49 EDT 2025,GET,http://localhost:3000/rest/products,500,Internal Server Error,36,363,2063
+5686,Tue Jul 15 07:30:49 EDT 2025,Tue Jul 15 07:30:49 EDT 2025,GET,http://localhost:3000/rest/user,500,Internal Server Error,21,363,2055
+5687,Tue Jul 15 07:30:49 EDT 2025,Tue Jul 15 07:30:49 EDT 2025,GET,http://localhost:3000/socket.io,200,OK,58,469,80117
